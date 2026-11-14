@@ -1,0 +1,4436 @@
+[
+  {
+    "file": "01_Peashooter/idle.gif",
+    "action": "anim_idle",
+    "frames": 35,
+    "size": [
+      162,
+      160
+    ],
+    "duration_ms": 1400,
+    "rate": 17.5,
+    "plant": "Peashooter",
+    "chinese": "豌豆射手",
+    "source": "PeaShooterSingle",
+    "bytes": 289270,
+    "sha256": "85a97d5da457dd0d052a0c4378bb9b3070067747d034989ed49461db7a877c8d"
+  },
+  {
+    "file": "01_Peashooter/head_idle.gif",
+    "action": "anim_head_idle",
+    "frames": 35,
+    "size": [
+      162,
+      160
+    ],
+    "duration_ms": 1400,
+    "rate": 17.5,
+    "plant": "Peashooter",
+    "chinese": "豌豆射手",
+    "source": "PeaShooterSingle",
+    "bytes": 289270,
+    "sha256": "85a97d5da457dd0d052a0c4378bb9b3070067747d034989ed49461db7a877c8d"
+  },
+  {
+    "file": "01_Peashooter/shooting.gif",
+    "action": "anim_shooting",
+    "frames": 18,
+    "size": [
+      162,
+      166
+    ],
+    "duration_ms": 720,
+    "rate": 35.0,
+    "plant": "Peashooter",
+    "chinese": "豌豆射手",
+    "source": "PeaShooterSingle",
+    "bytes": 148301,
+    "sha256": "ef2e22535cfa0484af74f1b3c4ce88caabe46ce9dc6572b8ac48f46554730b18"
+  },
+  {
+    "file": "01_Peashooter/full_idle.gif",
+    "action": "anim_full_idle",
+    "frames": 35,
+    "size": [
+      160,
+      158
+    ],
+    "duration_ms": 1400,
+    "rate": 17.5,
+    "plant": "Peashooter",
+    "chinese": "豌豆射手",
+    "source": "PeaShooterSingle",
+    "bytes": 288810,
+    "sha256": "768fa9ad5bd2d1800456c2090d76068ebec6ee21be7fa2522fe25218e4d19c46"
+  },
+  {
+    "file": "01_Peashooter/blink.gif",
+    "action": "anim_blink",
+    "frames": 24,
+    "size": [
+      162,
+      160
+    ],
+    "duration_ms": 960,
+    "rate": 15.0,
+    "plant": "Peashooter",
+    "chinese": "豌豆射手",
+    "source": "PeaShooterSingle",
+    "bytes": 197615,
+    "sha256": "0d7a3f2e8c3eafa441f5ce6e57ce23542f59f39c5b3e74acefd0bed77a19bb0f"
+  },
+  {
+    "file": "02_Sunflower/idle.gif",
+    "action": "anim_idle",
+    "frames": 50,
+    "size": [
+      162,
+      164
+    ],
+    "duration_ms": 2000,
+    "rate": 12.0,
+    "plant": "Sunflower",
+    "chinese": "向日葵",
+    "source": "SunFlower",
+    "bytes": 551315,
+    "sha256": "7c9c501e7eca550fbb7030b11d25ca0c373493feeb6737fbea8f7f8e97dcc8e1"
+  },
+  {
+    "file": "02_Sunflower/blink.gif",
+    "action": "anim_blink",
+    "frames": 24,
+    "size": [
+      160,
+      164
+    ],
+    "duration_ms": 960,
+    "rate": 15.0,
+    "plant": "Sunflower",
+    "chinese": "向日葵",
+    "source": "SunFlower",
+    "bytes": 261024,
+    "sha256": "3467424a7485670f625406da39d4477200781ceb1f452dd00cd54f94d37b399c"
+  },
+  {
+    "file": "03_CherryBomb/explode.gif",
+    "action": "anim_explode",
+    "frames": 28,
+    "size": [
+      270,
+      202
+    ],
+    "duration_ms": 1120,
+    "rate": 12.0,
+    "plant": "CherryBomb",
+    "chinese": "樱桃炸弹",
+    "source": "CherryBomb",
+    "bytes": 360348,
+    "sha256": "9cbaf054e7b764e16e25d45c0c7ff2b5ad75406be679703243279117fe175faf"
+  },
+  {
+    "file": "03_CherryBomb/idle.gif",
+    "action": "anim_idle",
+    "frames": 25,
+    "size": [
+      192,
+      152
+    ],
+    "duration_ms": 1000,
+    "rate": 12.0,
+    "plant": "CherryBomb",
+    "chinese": "樱桃炸弹",
+    "source": "CherryBomb",
+    "bytes": 251467,
+    "sha256": "b38620ebb640ecedbf532ebf0a7476f4cfd9c7039c3ed178a74a5977bc758c05"
+  },
+  {
+    "file": "04_WallNut/idle.gif",
+    "action": "anim_idle",
+    "frames": 34,
+    "size": [
+      168,
+      162
+    ],
+    "duration_ms": 1360,
+    "rate": 12.0,
+    "plant": "WallNut",
+    "chinese": "坚果",
+    "source": "Wallnut",
+    "bytes": 378168,
+    "sha256": "b4271c73d911298e815ebadc8b39019ad0d8ba6357e6a48d0f06f8d0574cf524"
+  },
+  {
+    "file": "04_WallNut/blink_twitch.gif",
+    "action": "anim_blink_twitch",
+    "frames": 27,
+    "size": [
+      168,
+      162
+    ],
+    "duration_ms": 1080,
+    "rate": 15.0,
+    "plant": "WallNut",
+    "chinese": "坚果",
+    "source": "Wallnut",
+    "bytes": 303914,
+    "sha256": "5be6a2348eb430f636b6dee0b3422de3e1bc6b3e8c5d7ccd45959f5d214a2a36"
+  },
+  {
+    "file": "04_WallNut/blink_twice.gif",
+    "action": "anim_blink_twice",
+    "frames": 31,
+    "size": [
+      168,
+      162
+    ],
+    "duration_ms": 1240,
+    "rate": 15.0,
+    "plant": "WallNut",
+    "chinese": "坚果",
+    "source": "Wallnut",
+    "bytes": 346954,
+    "sha256": "558b65e25070d630f71fb1126b6167ed9307a0f363fb7ce9cfe32fbd5a563564"
+  },
+  {
+    "file": "04_WallNut/blink_thrice.gif",
+    "action": "anim_blink_thrice",
+    "frames": 37,
+    "size": [
+      168,
+      162
+    ],
+    "duration_ms": 1480,
+    "rate": 15.0,
+    "plant": "WallNut",
+    "chinese": "坚果",
+    "source": "Wallnut",
+    "bytes": 416146,
+    "sha256": "c1b2a59fb93401c329207eabbfce330a74a6ae106496a73fd5bc336d2c4902f6"
+  },
+  {
+    "file": "04_WallNut/idle_damaged1.gif",
+    "action": "anim_idle",
+    "frames": 34,
+    "size": [
+      168,
+      162
+    ],
+    "duration_ms": 1360,
+    "rate": 12.0,
+    "plant": "WallNut",
+    "chinese": "坚果",
+    "source": "Wallnut",
+    "variant": "idle_damaged1",
+    "bytes": 379546,
+    "sha256": "d86e32dd5f90db10cd40c3f9f0bd941c0243312f2effc8896b2a11d04f76fea1"
+  },
+  {
+    "file": "04_WallNut/idle_damaged2.gif",
+    "action": "anim_idle",
+    "frames": 34,
+    "size": [
+      168,
+      162
+    ],
+    "duration_ms": 1360,
+    "rate": 12.0,
+    "plant": "WallNut",
+    "chinese": "坚果",
+    "source": "Wallnut",
+    "variant": "idle_damaged2",
+    "bytes": 368544,
+    "sha256": "05c5b598159f43f29977ea9fbb694650dbe58cc2a150d2ef66beae0b8df2239b"
+  },
+  {
+    "file": "04_WallNut/bowling.gif",
+    "action": "anim_bowling",
+    "frames": 25,
+    "size": [
+      220,
+      216
+    ],
+    "duration_ms": 1000,
+    "rate": 12.0,
+    "plant": "WallNut",
+    "chinese": "坚果",
+    "source": "Wallnut",
+    "bytes": 292485,
+    "sha256": "8c13264b3db9fdf6c80b48eb96f5de25520db7c4d478c3bd56cd10c9acf7291e"
+  },
+  {
+    "file": "05_PotatoMine/armed.gif",
+    "action": "anim_armed",
+    "frames": 21,
+    "size": [
+      206,
+      152
+    ],
+    "duration_ms": 840,
+    "rate": 12.0,
+    "plant": "PotatoMine",
+    "chinese": "土豆地雷",
+    "source": "PotatoMine",
+    "bytes": 231577,
+    "sha256": "8f5a983cebdd4c5878c7760f52952cf188df935dcf593880ec6b6f78b685a766"
+  },
+  {
+    "file": "05_PotatoMine/rise.gif",
+    "action": "anim_rise",
+    "frames": 37,
+    "size": [
+      206,
+      170
+    ],
+    "duration_ms": 1520,
+    "rate": 12.0,
+    "plant": "PotatoMine",
+    "chinese": "土豆地雷",
+    "source": "PotatoMine",
+    "bytes": 253252,
+    "sha256": "eb314258aa228cd6f55328597d7ec04b86f2295c195ac550b9e26d0874ee71fa"
+  },
+  {
+    "file": "05_PotatoMine/idle.gif",
+    "action": "anim_idle",
+    "frames": 1,
+    "size": [
+      104,
+      90
+    ],
+    "duration_ms": 120,
+    "rate": 12.0,
+    "plant": "PotatoMine",
+    "chinese": "土豆地雷",
+    "source": "PotatoMine",
+    "bytes": 4720,
+    "sha256": "a8671583d4a55e3da2f7a9783623d143e8466c6dd42d5fc79a553f2ffe0dc1d0"
+  },
+  {
+    "file": "05_PotatoMine/blink.gif",
+    "action": "anim_blink",
+    "frames": 24,
+    "size": [
+      206,
+      152
+    ],
+    "duration_ms": 960,
+    "rate": 15.0,
+    "plant": "PotatoMine",
+    "chinese": "土豆地雷",
+    "source": "PotatoMine",
+    "bytes": 263475,
+    "sha256": "d90cb10b312573c0f84b10197aa8c9662f0da8fc2f97becec0a2cad5df583073"
+  },
+  {
+    "file": "05_PotatoMine/mashed.gif",
+    "action": "anim_mashed",
+    "frames": 1,
+    "size": [
+      184,
+      132
+    ],
+    "duration_ms": 120,
+    "rate": 12.0,
+    "plant": "PotatoMine",
+    "chinese": "土豆地雷",
+    "source": "PotatoMine",
+    "bytes": 12076,
+    "sha256": "1454c721e22b2b63cf0512aa05fdcecd9ceb7519f709c64363fe07d2524807b6"
+  },
+  {
+    "file": "06_SnowPea/full_idle.gif",
+    "action": "anim_full_idle",
+    "frames": 35,
+    "size": [
+      160,
+      158
+    ],
+    "duration_ms": 1400,
+    "rate": 17.5,
+    "plant": "SnowPea",
+    "chinese": "寒冰射手",
+    "source": "SnowPea",
+    "bytes": 318571,
+    "sha256": "c5b017fe994b4575fa17d90046a0c6e040296c74b25eccb51db6afe5e292bc81"
+  },
+  {
+    "file": "06_SnowPea/shooting.gif",
+    "action": "anim_shooting",
+    "frames": 18,
+    "size": [
+      160,
+      166
+    ],
+    "duration_ms": 720,
+    "rate": 35.0,
+    "plant": "SnowPea",
+    "chinese": "寒冰射手",
+    "source": "SnowPea",
+    "bytes": 162853,
+    "sha256": "a048f9f12b5d79eda7a0d7893af7ec56a6bdf29d0bf6bdb6aac26067785b6731"
+  },
+  {
+    "file": "06_SnowPea/head_idle.gif",
+    "action": "anim_head_idle",
+    "frames": 35,
+    "size": [
+      160,
+      166
+    ],
+    "duration_ms": 1400,
+    "rate": 17.5,
+    "plant": "SnowPea",
+    "chinese": "寒冰射手",
+    "source": "SnowPea",
+    "bytes": 324581,
+    "sha256": "80dfc2e57bd642ee42ad07ccc3b66903e8117844e70c64cdae5133d6b69be5b2"
+  },
+  {
+    "file": "06_SnowPea/idle.gif",
+    "action": "anim_idle",
+    "frames": 35,
+    "size": [
+      160,
+      166
+    ],
+    "duration_ms": 1400,
+    "rate": 17.5,
+    "plant": "SnowPea",
+    "chinese": "寒冰射手",
+    "source": "SnowPea",
+    "bytes": 324581,
+    "sha256": "80dfc2e57bd642ee42ad07ccc3b66903e8117844e70c64cdae5133d6b69be5b2"
+  },
+  {
+    "file": "06_SnowPea/blink.gif",
+    "action": "anim_blink",
+    "frames": 24,
+    "size": [
+      160,
+      166
+    ],
+    "duration_ms": 960,
+    "rate": 15.0,
+    "plant": "SnowPea",
+    "chinese": "寒冰射手",
+    "source": "SnowPea",
+    "bytes": 223331,
+    "sha256": "6414d734272644274afd02f38f1922cf1fc72a448919a1e0449b32152e198844"
+  },
+  {
+    "file": "07_Chomper/swallow.gif",
+    "action": "anim_swallow",
+    "frames": 57,
+    "size": [
+      208,
+      226
+    ],
+    "duration_ms": 2280,
+    "rate": 12.0,
+    "plant": "Chomper",
+    "chinese": "大嘴花",
+    "source": "Chomper",
+    "bytes": 845762,
+    "sha256": "a4ef8e8f2ed6ae0962e20b8e86f2018d99732386f37448d16ec0c81363d387eb"
+  },
+  {
+    "file": "07_Chomper/chew.gif",
+    "action": "anim_chew",
+    "frames": 32,
+    "size": [
+      184,
+      192
+    ],
+    "duration_ms": 1280,
+    "rate": 12.0,
+    "plant": "Chomper",
+    "chinese": "大嘴花",
+    "source": "Chomper",
+    "bytes": 454782,
+    "sha256": "c4d67075263ab682b2c5d85802b0ce6bde53dfaf9c0e941fe38e6672c8f411d1"
+  },
+  {
+    "file": "07_Chomper/bite.gif",
+    "action": "anim_bite",
+    "frames": 50,
+    "size": [
+      294,
+      294
+    ],
+    "duration_ms": 2000,
+    "rate": 12.0,
+    "plant": "Chomper",
+    "chinese": "大嘴花",
+    "source": "Chomper",
+    "bytes": 802921,
+    "sha256": "8999dc1d81bc47bffa972766d01d286311f8842fbeac60f07e54d2d145381a2a"
+  },
+  {
+    "file": "07_Chomper/idle.gif",
+    "action": "anim_idle",
+    "frames": 50,
+    "size": [
+      218,
+      224
+    ],
+    "duration_ms": 2000,
+    "rate": 12.0,
+    "plant": "Chomper",
+    "chinese": "大嘴花",
+    "source": "Chomper",
+    "bytes": 853316,
+    "sha256": "817d5fdef8008af278cb1254f43da9cfc0598a9da2bd0ccf4c46c1f443b26f41"
+  },
+  {
+    "file": "08_Repeater/full_idle.gif",
+    "action": "anim_full_idle",
+    "frames": 35,
+    "size": [
+      164,
+      154
+    ],
+    "duration_ms": 1400,
+    "rate": 17.5,
+    "plant": "Repeater",
+    "chinese": "双发射手",
+    "source": "PeaShooter",
+    "bytes": 309293,
+    "sha256": "501f76a21f2a0a1757942bef9deebe3f2eb19fe3792f93367515f5d51c77566a"
+  },
+  {
+    "file": "08_Repeater/shooting.gif",
+    "action": "anim_shooting",
+    "frames": 14,
+    "size": [
+      160,
+      162
+    ],
+    "duration_ms": 560,
+    "rate": 45.0,
+    "plant": "Repeater",
+    "chinese": "双发射手",
+    "source": "PeaShooter",
+    "bytes": 124898,
+    "sha256": "a50330d449611dae7fae3ddb264b9fcfd668203b21ccb700b9556cb23f92faf7"
+  },
+  {
+    "file": "08_Repeater/head_idle.gif",
+    "action": "anim_head_idle",
+    "frames": 35,
+    "size": [
+      164,
+      162
+    ],
+    "duration_ms": 1400,
+    "rate": 17.5,
+    "plant": "Repeater",
+    "chinese": "双发射手",
+    "source": "PeaShooter",
+    "bytes": 312649,
+    "sha256": "6d5122629a0d8705536e6602351327d7bf80d6c2bde9500c50f94909ddcde2f1"
+  },
+  {
+    "file": "08_Repeater/idle.gif",
+    "action": "anim_idle",
+    "frames": 35,
+    "size": [
+      164,
+      162
+    ],
+    "duration_ms": 1400,
+    "rate": 17.5,
+    "plant": "Repeater",
+    "chinese": "双发射手",
+    "source": "PeaShooter",
+    "bytes": 312649,
+    "sha256": "6d5122629a0d8705536e6602351327d7bf80d6c2bde9500c50f94909ddcde2f1"
+  },
+  {
+    "file": "08_Repeater/blink.gif",
+    "action": "anim_blink",
+    "frames": 24,
+    "size": [
+      164,
+      160
+    ],
+    "duration_ms": 960,
+    "rate": 15.0,
+    "plant": "Repeater",
+    "chinese": "双发射手",
+    "source": "PeaShooter",
+    "bytes": 214077,
+    "sha256": "c8c6ce3e5eb12dff5a567615b0768d8354c78eb5a347c54811653f9127147cdd"
+  },
+  {
+    "file": "09_PuffShroom/sleep.gif",
+    "action": "anim_sleep",
+    "frames": 34,
+    "size": [
+      88,
+      88
+    ],
+    "duration_ms": 1360,
+    "rate": 12.0,
+    "plant": "PuffShroom",
+    "chinese": "小喷菇",
+    "source": "Puffshroom",
+    "bytes": 141208,
+    "sha256": "532c1441c0111fa451da681ff10c9acba80cfb296b29118c602ff6508db7a77f"
+  },
+  {
+    "file": "09_PuffShroom/shooting.gif",
+    "action": "anim_shooting",
+    "frames": 9,
+    "size": [
+      96,
+      90
+    ],
+    "duration_ms": 360,
+    "rate": 35.0,
+    "plant": "PuffShroom",
+    "chinese": "小喷菇",
+    "source": "Puffshroom",
+    "bytes": 37548,
+    "sha256": "7c79782d06e547829f9f3c004056a8d4e576b26ca051827b4ee3f24cd9f3e474"
+  },
+  {
+    "file": "09_PuffShroom/idle.gif",
+    "action": "anim_idle",
+    "frames": 34,
+    "size": [
+      88,
+      88
+    ],
+    "duration_ms": 1360,
+    "rate": 12.0,
+    "plant": "PuffShroom",
+    "chinese": "小喷菇",
+    "source": "Puffshroom",
+    "bytes": 143142,
+    "sha256": "0dbe6e3a81622265daad72142e16cd1dd79f6c62477e1fdd04648304dbb95e10"
+  },
+  {
+    "file": "09_PuffShroom/blink.gif",
+    "action": "anim_blink",
+    "frames": 24,
+    "size": [
+      88,
+      88
+    ],
+    "duration_ms": 960,
+    "rate": 15.0,
+    "plant": "PuffShroom",
+    "chinese": "小喷菇",
+    "source": "Puffshroom",
+    "bytes": 99879,
+    "sha256": "85390b84ec7b5caeaa504489227cdfd9e7a9d8cca1a39c1820f08d779b7c6d92"
+  },
+  {
+    "file": "10_SunShroom/bigsleep.gif",
+    "action": "anim_bigsleep",
+    "frames": 23,
+    "size": [
+      130,
+      130
+    ],
+    "duration_ms": 920,
+    "rate": 12.0,
+    "plant": "SunShroom",
+    "chinese": "阳光菇",
+    "source": "SunShroom",
+    "bytes": 151334,
+    "sha256": "4af50749b3c16bf0ae5a22a9be50fd7555fc03b5dafcd7f63b09e3d33ba40003"
+  },
+  {
+    "file": "10_SunShroom/bigidle.gif",
+    "action": "anim_bigidle",
+    "frames": 23,
+    "size": [
+      130,
+      130
+    ],
+    "duration_ms": 920,
+    "rate": 12.0,
+    "plant": "SunShroom",
+    "chinese": "阳光菇",
+    "source": "SunShroom",
+    "bytes": 154043,
+    "sha256": "edde4b05633a77c6d97c4b73c3206b9c1ba63eb0d4ad5f04df9bbed253ed6e8c"
+  },
+  {
+    "file": "10_SunShroom/grow.gif",
+    "action": "anim_grow",
+    "frames": 23,
+    "size": [
+      120,
+      128
+    ],
+    "duration_ms": 920,
+    "rate": 12.0,
+    "plant": "SunShroom",
+    "chinese": "阳光菇",
+    "source": "SunShroom",
+    "bytes": 120631,
+    "sha256": "f54e3f22ece48e2a825cef8b152064429de4de8f4c9448e1aa2949ec69e2cdce"
+  },
+  {
+    "file": "10_SunShroom/sleep.gif",
+    "action": "anim_sleep",
+    "frames": 19,
+    "size": [
+      92,
+      92
+    ],
+    "duration_ms": 760,
+    "rate": 12.0,
+    "plant": "SunShroom",
+    "chinese": "阳光菇",
+    "source": "SunShroom",
+    "bytes": 72923,
+    "sha256": "fae76f69fa0def59dbea107274cc943c23e4b406f2a70c5a884329e863fc5f8a"
+  },
+  {
+    "file": "10_SunShroom/idle.gif",
+    "action": "anim_idle",
+    "frames": 23,
+    "size": [
+      92,
+      92
+    ],
+    "duration_ms": 920,
+    "rate": 12.0,
+    "plant": "SunShroom",
+    "chinese": "阳光菇",
+    "source": "SunShroom",
+    "bytes": 88705,
+    "sha256": "a3e8f08932ca0241645b2b7681ca32a3b3a958af654d3bd98e0738f31906f476"
+  },
+  {
+    "file": "10_SunShroom/blink.gif",
+    "action": "anim_blink",
+    "frames": 24,
+    "size": [
+      92,
+      92
+    ],
+    "duration_ms": 960,
+    "rate": 15.0,
+    "plant": "SunShroom",
+    "chinese": "阳光菇",
+    "source": "SunShroom",
+    "bytes": 92158,
+    "sha256": "e0d322454b6c85d1504f200ec4d5235e50376f4c1fe339115515a05b957fa2bb"
+  },
+  {
+    "file": "11_FumeShroom/sleep.gif",
+    "action": "anim_sleep",
+    "frames": 34,
+    "size": [
+      184,
+      188
+    ],
+    "duration_ms": 1360,
+    "rate": 12.0,
+    "plant": "FumeShroom",
+    "chinese": "大喷菇",
+    "source": "Fumeshroom",
+    "bytes": 444394,
+    "sha256": "6f490357a9e865fe7188702b9d38dfb4a4e842a5f7b15c439329454557fb9bf0"
+  },
+  {
+    "file": "11_FumeShroom/shooting.gif",
+    "action": "anim_shooting",
+    "frames": 21,
+    "size": [
+      276,
+      194
+    ],
+    "duration_ms": 840,
+    "rate": 35.0,
+    "plant": "FumeShroom",
+    "chinese": "大喷菇",
+    "source": "Fumeshroom",
+    "bytes": 278818,
+    "sha256": "aa21baf59a94466a7076d7e8cb402a6af85655dd82f849e81975178c09bc83da"
+  },
+  {
+    "file": "11_FumeShroom/idle.gif",
+    "action": "anim_idle",
+    "frames": 34,
+    "size": [
+      184,
+      188
+    ],
+    "duration_ms": 1360,
+    "rate": 12.0,
+    "plant": "FumeShroom",
+    "chinese": "大喷菇",
+    "source": "Fumeshroom",
+    "bytes": 447289,
+    "sha256": "9719083cf5da52083a1da265ca004dc12cf35773a8f2080053e312d5b352ee3a"
+  },
+  {
+    "file": "11_FumeShroom/blink.gif",
+    "action": "anim_blink",
+    "frames": 24,
+    "size": [
+      184,
+      184
+    ],
+    "duration_ms": 960,
+    "rate": 15.0,
+    "plant": "FumeShroom",
+    "chinese": "大喷菇",
+    "source": "Fumeshroom",
+    "bytes": 318650,
+    "sha256": "63a3ae32044c1b3bd93290908eb59fdabb155aaafdc0abb21603e922914da8d0"
+  },
+  {
+    "file": "12_GraveBuster/land.gif",
+    "action": "anim_land",
+    "frames": 13,
+    "size": [
+      214,
+      170
+    ],
+    "duration_ms": 520,
+    "rate": 12.0,
+    "plant": "GraveBuster",
+    "chinese": "墓碑吞噬者",
+    "source": "Gravebuster",
+    "bytes": 179894,
+    "sha256": "e80bbe0d07795a3439c3dadde2feee8797606d064ce8926685a76db56a847f64"
+  },
+  {
+    "file": "12_GraveBuster/idle.gif",
+    "action": "anim_idle",
+    "frames": 57,
+    "size": [
+      218,
+      166
+    ],
+    "duration_ms": 2280,
+    "rate": 12.0,
+    "plant": "GraveBuster",
+    "chinese": "墓碑吞噬者",
+    "source": "Gravebuster",
+    "bytes": 821003,
+    "sha256": "94c8b9bf29eb00dfc8c8a5dc8d7cd1ec83c98846bd318f2698b562f5a52b4b2c"
+  },
+  {
+    "file": "13_HypnoShroom/idle.gif",
+    "action": "anim_idle",
+    "frames": 40,
+    "size": [
+      172,
+      168
+    ],
+    "duration_ms": 1600,
+    "rate": 12.0,
+    "plant": "HypnoShroom",
+    "chinese": "魅惑菇",
+    "source": "Hypnoshroom",
+    "bytes": 328585,
+    "sha256": "0c566bb9d59577724158e2889adb68307634d11bd2eb238be1571aa0321328ad"
+  },
+  {
+    "file": "13_HypnoShroom/sleep.gif",
+    "action": "anim_sleep",
+    "frames": 40,
+    "size": [
+      138,
+      172
+    ],
+    "duration_ms": 1600,
+    "rate": 12.0,
+    "plant": "HypnoShroom",
+    "chinese": "魅惑菇",
+    "source": "Hypnoshroom",
+    "bytes": 329775,
+    "sha256": "e4bf584153dc11813e9264c245ea84f62539110027a60c83fc99bdf6cb98b610"
+  },
+  {
+    "file": "14_ScaredyShroom/sleep.gif",
+    "action": "anim_sleep",
+    "frames": 32,
+    "size": [
+      138,
+      168
+    ],
+    "duration_ms": 1280,
+    "rate": 12.0,
+    "plant": "ScaredyShroom",
+    "chinese": "胆小菇",
+    "source": "ScaredyShroom",
+    "bytes": 222447,
+    "sha256": "9306d0b22678ccfca813a5bc745b77a63b8c720e79e6c3db9fc482957914ae85"
+  },
+  {
+    "file": "14_ScaredyShroom/grow.gif",
+    "action": "anim_grow",
+    "frames": 19,
+    "size": [
+      150,
+      192
+    ],
+    "duration_ms": 760,
+    "rate": 12.0,
+    "plant": "ScaredyShroom",
+    "chinese": "胆小菇",
+    "source": "ScaredyShroom",
+    "bytes": 119198,
+    "sha256": "c4233a2e98e6f478d00012b64a1cbfe9e34be34d27bef30934a5e2a7cfccf994"
+  },
+  {
+    "file": "14_ScaredyShroom/scaredidle.gif",
+    "action": "anim_scaredidle",
+    "frames": 21,
+    "size": [
+      154,
+      146
+    ],
+    "duration_ms": 840,
+    "rate": 12.0,
+    "plant": "ScaredyShroom",
+    "chinese": "胆小菇",
+    "source": "ScaredyShroom",
+    "bytes": 122136,
+    "sha256": "243aff0b1c7895294fa17d2349f319cb6856504cfedbcb2b37962b5c71fcb9ae"
+  },
+  {
+    "file": "14_ScaredyShroom/scared.gif",
+    "action": "anim_scared",
+    "frames": 25,
+    "size": [
+      158,
+      192
+    ],
+    "duration_ms": 1000,
+    "rate": 12.0,
+    "plant": "ScaredyShroom",
+    "chinese": "胆小菇",
+    "source": "ScaredyShroom",
+    "bytes": 162289,
+    "sha256": "43009102897efd9038f3a80038cde8b73cb85379debbdfac0ef92b6cc8ae1a18"
+  },
+  {
+    "file": "14_ScaredyShroom/shooting.gif",
+    "action": "anim_shooting",
+    "frames": 10,
+    "size": [
+      166,
+      162
+    ],
+    "duration_ms": 400,
+    "rate": 35.0,
+    "plant": "ScaredyShroom",
+    "chinese": "胆小菇",
+    "source": "ScaredyShroom",
+    "bytes": 70821,
+    "sha256": "6b425d70b02b93d7e45f92c6aeec85c5af073ccc67726b9caa9e8780f149c4b3"
+  },
+  {
+    "file": "14_ScaredyShroom/idle.gif",
+    "action": "anim_idle",
+    "frames": 32,
+    "size": [
+      118,
+      156
+    ],
+    "duration_ms": 1280,
+    "rate": 12.0,
+    "plant": "ScaredyShroom",
+    "chinese": "胆小菇",
+    "source": "ScaredyShroom",
+    "bytes": 226002,
+    "sha256": "dcfeaddd843ca1d188b5e69729b984b8fdd73f9f0a46a21249b085cc92b34146"
+  },
+  {
+    "file": "14_ScaredyShroom/blink.gif",
+    "action": "anim_blink",
+    "frames": 24,
+    "size": [
+      118,
+      156
+    ],
+    "duration_ms": 960,
+    "rate": 15.0,
+    "plant": "ScaredyShroom",
+    "chinese": "胆小菇",
+    "source": "ScaredyShroom",
+    "bytes": 169867,
+    "sha256": "207db2edfb11a7f1d5b04f6da0400ea4823a412933d9a56006dddc3ad8478e09"
+  },
+  {
+    "file": "15_IceShroom/idle.gif",
+    "action": "anim_idle",
+    "frames": 34,
+    "size": [
+      180,
+      164
+    ],
+    "duration_ms": 1360,
+    "rate": 12.0,
+    "plant": "IceShroom",
+    "chinese": "寒冰菇",
+    "source": "Iceshroom",
+    "bytes": 534212,
+    "sha256": "48e558df4df54f6e81093e9f7a1bf3d434cec5aab8df8ad844c6257734b2502d"
+  },
+  {
+    "file": "15_IceShroom/sleep.gif",
+    "action": "anim_sleep",
+    "frames": 34,
+    "size": [
+      180,
+      164
+    ],
+    "duration_ms": 1360,
+    "rate": 12.0,
+    "plant": "IceShroom",
+    "chinese": "寒冰菇",
+    "source": "Iceshroom",
+    "bytes": 531641,
+    "sha256": "0a39e11a3b2bb89356c5d999973ef13cd12d899f583035bdb4fd9c872a859b64"
+  },
+  {
+    "file": "15_IceShroom/blink.gif",
+    "action": "anim_blink",
+    "frames": 24,
+    "size": [
+      180,
+      164
+    ],
+    "duration_ms": 960,
+    "rate": 15.0,
+    "plant": "IceShroom",
+    "chinese": "寒冰菇",
+    "source": "Iceshroom",
+    "bytes": 376612,
+    "sha256": "c91cc0b779ddfc21a98f5bc8afbb5a03f71c08fee03ed6e80e3ea79bdf993830"
+  },
+  {
+    "file": "16_DoomShroom/sleep.gif",
+    "action": "anim_sleep",
+    "frames": 50,
+    "size": [
+      196,
+      168
+    ],
+    "duration_ms": 2000,
+    "rate": 12.0,
+    "plant": "DoomShroom",
+    "chinese": "毁灭菇",
+    "source": "DoomShroom",
+    "bytes": 529223,
+    "sha256": "3abaaf5e88489755b53eacdb6a3d96c0eaf6c6c7928bebd55c73d910419a270e"
+  },
+  {
+    "file": "16_DoomShroom/explode.gif",
+    "action": "anim_explode",
+    "frames": 67,
+    "size": [
+      262,
+      224
+    ],
+    "duration_ms": 2680,
+    "rate": 12.0,
+    "plant": "DoomShroom",
+    "chinese": "毁灭菇",
+    "source": "DoomShroom",
+    "bytes": 955144,
+    "sha256": "be7654bfaa566a1850d87214d5ab6c722d53d98bbcb5451119781f686f5ecdb1"
+  },
+  {
+    "file": "16_DoomShroom/idle.gif",
+    "action": "anim_idle",
+    "frames": 40,
+    "size": [
+      182,
+      178
+    ],
+    "duration_ms": 1600,
+    "rate": 12.0,
+    "plant": "DoomShroom",
+    "chinese": "毁灭菇",
+    "source": "DoomShroom",
+    "bytes": 446189,
+    "sha256": "025f683ae14179cdd8a25e66e8763b1e4e43aae81a8b71818dd81eaa988c48dc"
+  },
+  {
+    "file": "17_LilyPad/idle.gif",
+    "action": "anim_idle",
+    "frames": 1,
+    "size": [
+      174,
+      174
+    ],
+    "duration_ms": 120,
+    "rate": 12.0,
+    "plant": "LilyPad",
+    "chinese": "睡莲",
+    "source": "Lilypad",
+    "bytes": 10064,
+    "sha256": "a7479c32e5bae09dd4d4519f118b694579ebbf10c39b269bdade35350f871665"
+  },
+  {
+    "file": "17_LilyPad/blink.gif",
+    "action": "anim_blink",
+    "frames": 4,
+    "size": [
+      174,
+      174
+    ],
+    "duration_ms": 960,
+    "rate": 15.0,
+    "plant": "LilyPad",
+    "chinese": "睡莲",
+    "source": "Lilypad",
+    "bytes": 37915,
+    "sha256": "b9547852b247682e3b379c19af65055ac1c6e8b69183180755ae5f51f3bf0721"
+  },
+  {
+    "file": "18_Squash/jumpdown.gif",
+    "action": "anim_jumpdown",
+    "frames": 15,
+    "size": [
+      198,
+      206
+    ],
+    "duration_ms": 600,
+    "rate": 12.0,
+    "plant": "Squash",
+    "chinese": "窝瓜",
+    "source": "Squash",
+    "bytes": 218704,
+    "sha256": "951a70ef0bb47d78b7125613dee2526db587945ff8ccb3f4c419e1ea34fdc149"
+  },
+  {
+    "file": "18_Squash/jumpup.gif",
+    "action": "anim_jumpup",
+    "frames": 30,
+    "size": [
+      180,
+      212
+    ],
+    "duration_ms": 1200,
+    "rate": 12.0,
+    "plant": "Squash",
+    "chinese": "窝瓜",
+    "source": "Squash",
+    "bytes": 429429,
+    "sha256": "3556f0ca6c54100a7c1631664ce924e0b2bbe0824a42ed2ccc6edb25d7842854"
+  },
+  {
+    "file": "18_Squash/lookright.gif",
+    "action": "anim_lookright",
+    "frames": 11,
+    "size": [
+      152,
+      178
+    ],
+    "duration_ms": 440,
+    "rate": 12.0,
+    "plant": "Squash",
+    "chinese": "窝瓜",
+    "source": "Squash",
+    "bytes": 166938,
+    "sha256": "3c18d32beff8959de4401c76c7af0fb524bfac1643e8ff21d54e9ab0945a05bf"
+  },
+  {
+    "file": "18_Squash/lookleft.gif",
+    "action": "anim_lookleft",
+    "frames": 11,
+    "size": [
+      152,
+      178
+    ],
+    "duration_ms": 440,
+    "rate": 12.0,
+    "plant": "Squash",
+    "chinese": "窝瓜",
+    "source": "Squash",
+    "bytes": 167104,
+    "sha256": "04f8f8959cc65706cdc172ea6265fc27cc3512bc75e14654c6e6e114c4404ead"
+  },
+  {
+    "file": "18_Squash/idle.gif",
+    "action": "anim_idle",
+    "frames": 38,
+    "size": [
+      160,
+      192
+    ],
+    "duration_ms": 1520,
+    "rate": 12.0,
+    "plant": "Squash",
+    "chinese": "窝瓜",
+    "source": "Squash",
+    "bytes": 576682,
+    "sha256": "b1b38d1402d8899dca60aaeb895b3c22fc6037e8f7f58d41487c01ab97915412"
+  },
+  {
+    "file": "18_Squash/blink.gif",
+    "action": "anim_blink",
+    "frames": 27,
+    "size": [
+      160,
+      192
+    ],
+    "duration_ms": 1080,
+    "rate": 15.0,
+    "plant": "Squash",
+    "chinese": "窝瓜",
+    "source": "Squash",
+    "bytes": 412366,
+    "sha256": "06fc0d2c7723b624636a337c0b6f2f3a81829ff6d2b8af43b525d27bca2c2c3f"
+  },
+  {
+    "file": "19_Threepeater/shooting2.gif",
+    "action": "anim_shooting2",
+    "frames": 15,
+    "size": [
+      160,
+      176
+    ],
+    "duration_ms": 600,
+    "rate": 20.0,
+    "plant": "Threepeater",
+    "chinese": "三线射手",
+    "source": "ThreePeater",
+    "bytes": 164911,
+    "sha256": "c79e3ae01604fc839de8acfa1a217071b350e563251ce6b76cdbd9da58098d7e"
+  },
+  {
+    "file": "19_Threepeater/head_idle2.gif",
+    "action": "anim_head_idle2",
+    "frames": 35,
+    "size": [
+      164,
+      178
+    ],
+    "duration_ms": 1400,
+    "rate": 17.5,
+    "plant": "Threepeater",
+    "chinese": "三线射手",
+    "source": "ThreePeater",
+    "bytes": 383465,
+    "sha256": "86f67cc1c2d76734ccfcae35bed43ed03f1c816f5487f3a287c27f1e9a1cd2f8"
+  },
+  {
+    "file": "19_Threepeater/blink2.gif",
+    "action": "anim_blink2",
+    "frames": 24,
+    "size": [
+      164,
+      178
+    ],
+    "duration_ms": 960,
+    "rate": 15.0,
+    "plant": "Threepeater",
+    "chinese": "三线射手",
+    "source": "ThreePeater",
+    "bytes": 263941,
+    "sha256": "5519b591111404bf85763fd9f9f891216052080e4d42d00b5f537c87f2239aee"
+  },
+  {
+    "file": "19_Threepeater/shooting3.gif",
+    "action": "anim_shooting3",
+    "frames": 15,
+    "size": [
+      160,
+      178
+    ],
+    "duration_ms": 600,
+    "rate": 20.0,
+    "plant": "Threepeater",
+    "chinese": "三线射手",
+    "source": "ThreePeater",
+    "bytes": 164021,
+    "sha256": "08bf8303158da12d515859f27699c58cbc469e4e07231ad71672046983e61d93"
+  },
+  {
+    "file": "19_Threepeater/head_idle3.gif",
+    "action": "anim_head_idle3",
+    "frames": 35,
+    "size": [
+      164,
+      178
+    ],
+    "duration_ms": 1400,
+    "rate": 17.5,
+    "plant": "Threepeater",
+    "chinese": "三线射手",
+    "source": "ThreePeater",
+    "bytes": 383465,
+    "sha256": "86f67cc1c2d76734ccfcae35bed43ed03f1c816f5487f3a287c27f1e9a1cd2f8"
+  },
+  {
+    "file": "19_Threepeater/blink3.gif",
+    "action": "anim_blink3",
+    "frames": 24,
+    "size": [
+      164,
+      178
+    ],
+    "duration_ms": 960,
+    "rate": 15.0,
+    "plant": "Threepeater",
+    "chinese": "三线射手",
+    "source": "ThreePeater",
+    "bytes": 263905,
+    "sha256": "12b3f8819320def679c60e44da1b975b7ce366f8a957247f05a9cafb061c20a0"
+  },
+  {
+    "file": "19_Threepeater/shooting1.gif",
+    "action": "anim_shooting1",
+    "frames": 15,
+    "size": [
+      166,
+      176
+    ],
+    "duration_ms": 600,
+    "rate": 20.0,
+    "plant": "Threepeater",
+    "chinese": "三线射手",
+    "source": "ThreePeater",
+    "bytes": 164059,
+    "sha256": "65132cf3ceaee637a10e83d66f0b623d01dda2126a502a11d55c2e4086885243"
+  },
+  {
+    "file": "19_Threepeater/head_idle1.gif",
+    "action": "anim_head_idle1",
+    "frames": 35,
+    "size": [
+      164,
+      178
+    ],
+    "duration_ms": 1400,
+    "rate": 17.5,
+    "plant": "Threepeater",
+    "chinese": "三线射手",
+    "source": "ThreePeater",
+    "bytes": 383465,
+    "sha256": "86f67cc1c2d76734ccfcae35bed43ed03f1c816f5487f3a287c27f1e9a1cd2f8"
+  },
+  {
+    "file": "19_Threepeater/blink1.gif",
+    "action": "anim_blink1",
+    "frames": 24,
+    "size": [
+      164,
+      178
+    ],
+    "duration_ms": 960,
+    "rate": 15.0,
+    "plant": "Threepeater",
+    "chinese": "三线射手",
+    "source": "ThreePeater",
+    "bytes": 263730,
+    "sha256": "2124520ef9799a435844d932536039eb06cd45baf154d18c997c969d199b2c03"
+  },
+  {
+    "file": "19_Threepeater/idle.gif",
+    "action": "anim_idle",
+    "frames": 35,
+    "size": [
+      164,
+      178
+    ],
+    "duration_ms": 1400,
+    "rate": 17.5,
+    "plant": "Threepeater",
+    "chinese": "三线射手",
+    "source": "ThreePeater",
+    "bytes": 383465,
+    "sha256": "86f67cc1c2d76734ccfcae35bed43ed03f1c816f5487f3a287c27f1e9a1cd2f8"
+  },
+  {
+    "file": "20_TangleKelp/blink.gif",
+    "action": "anim_blink",
+    "frames": 27,
+    "size": [
+      188,
+      162
+    ],
+    "duration_ms": 1080,
+    "rate": 15.0,
+    "plant": "TangleKelp",
+    "chinese": "缠绕海草",
+    "source": "Tanglekelp",
+    "bytes": 338725,
+    "sha256": "1ed557f902786306ada3aab3ec4c44f82dc192b4bafb36c73053c7420fa1d460"
+  },
+  {
+    "file": "20_TangleKelp/idle.gif",
+    "action": "anim_idle",
+    "frames": 44,
+    "size": [
+      188,
+      162
+    ],
+    "duration_ms": 1760,
+    "rate": 12.0,
+    "plant": "TangleKelp",
+    "chinese": "缠绕海草",
+    "source": "Tanglekelp",
+    "bytes": 554491,
+    "sha256": "4efda32768515bd87dcb9bc9b9a7e4c5b897160ca437e7524e5a04682a1d7879"
+  },
+  {
+    "file": "20_TangleKelp/grab.gif",
+    "action": "anim_grab",
+    "frames": 9,
+    "size": [
+      192,
+      166
+    ],
+    "duration_ms": 360,
+    "rate": 12.0,
+    "plant": "TangleKelp",
+    "chinese": "缠绕海草",
+    "source": "Tanglekelp",
+    "bytes": 47445,
+    "sha256": "0610a59187c77024856a0348583cc72ebd34713efb455dcdc80f58f0fa87570a"
+  },
+  {
+    "file": "20_TangleKelp/idle_aquarium.gif",
+    "action": "anim_idle_aquarium",
+    "frames": 44,
+    "size": [
+      188,
+      162
+    ],
+    "duration_ms": 1760,
+    "rate": 12.0,
+    "plant": "TangleKelp",
+    "chinese": "缠绕海草",
+    "source": "Tanglekelp",
+    "bytes": 628390,
+    "sha256": "bde3c01294fbc2cb73032ad16494e6330e442a7f0ad4fb2c706a9b87ad1f2e5b"
+  },
+  {
+    "file": "21_Jalapeno/blink.gif",
+    "action": "anim_blink",
+    "frames": 27,
+    "size": [
+      110,
+      168
+    ],
+    "duration_ms": 1080,
+    "rate": 15.0,
+    "plant": "Jalapeno",
+    "chinese": "火爆辣椒",
+    "source": "Jalapeno",
+    "bytes": 205016,
+    "sha256": "d7e28ac7ce9315dbeb791da227da749eab502b41318c3884ce012dc1b49a84c7"
+  },
+  {
+    "file": "21_Jalapeno/idle.gif",
+    "action": "anim_idle",
+    "frames": 13,
+    "size": [
+      110,
+      168
+    ],
+    "duration_ms": 520,
+    "rate": 12.0,
+    "plant": "Jalapeno",
+    "chinese": "火爆辣椒",
+    "source": "Jalapeno",
+    "bytes": 98716,
+    "sha256": "428e78ce75662f1a20e1da6efeff9109743bcc349d6bea787d2ee0642ee7e895"
+  },
+  {
+    "file": "21_Jalapeno/explode.gif",
+    "action": "anim_explode",
+    "frames": 25,
+    "size": [
+      156,
+      204
+    ],
+    "duration_ms": 1000,
+    "rate": 12.0,
+    "plant": "Jalapeno",
+    "chinese": "火爆辣椒",
+    "source": "Jalapeno",
+    "bytes": 252735,
+    "sha256": "6797cc2069e0a01b061b14899dd9fdb66da48b1a0ebb59ea9a306efc8a0e136b"
+  },
+  {
+    "file": "22_Spikeweed/attack.gif",
+    "action": "anim_attack",
+    "frames": 19,
+    "size": [
+      174,
+      100
+    ],
+    "duration_ms": 760,
+    "rate": 12.0,
+    "plant": "Spikeweed",
+    "chinese": "地刺",
+    "source": "Caltrop",
+    "bytes": 152663,
+    "sha256": "5171cafc30521a6159fbde7fbebf300d4a9336922c55194cce63730df33f74a3"
+  },
+  {
+    "file": "22_Spikeweed/idle.gif",
+    "action": "anim_idle",
+    "frames": 42,
+    "size": [
+      182,
+      86
+    ],
+    "duration_ms": 1680,
+    "rate": 12.0,
+    "plant": "Spikeweed",
+    "chinese": "地刺",
+    "source": "Caltrop",
+    "bytes": 312188,
+    "sha256": "61c65b13d926347e7ffbc56c0af1a8bb27faa06ec618f48116443a6a364a45f0"
+  },
+  {
+    "file": "22_Spikeweed/blink.gif",
+    "action": "anim_blink",
+    "frames": 24,
+    "size": [
+      182,
+      82
+    ],
+    "duration_ms": 960,
+    "rate": 15.0,
+    "plant": "Spikeweed",
+    "chinese": "地刺",
+    "source": "Caltrop",
+    "bytes": 174326,
+    "sha256": "8961d589e2d1e90ca4b2ac9b7009d883b6597630844b1c64ee3f5aef1b81e579"
+  },
+  {
+    "file": "23_Torchwood/idle.gif",
+    "action": "anim_idle",
+    "frames": 42,
+    "size": [
+      154,
+      200
+    ],
+    "duration_ms": 1680,
+    "rate": 12.0,
+    "plant": "Torchwood",
+    "chinese": "火炬树桩",
+    "source": "Torchwood",
+    "bytes": 467460,
+    "sha256": "d8247281756d627057bf8705a419155909527c02bf401e3ffaf9112bfdcde193"
+  },
+  {
+    "file": "23_Torchwood/blink.gif",
+    "action": "anim_blink",
+    "frames": 25,
+    "size": [
+      154,
+      200
+    ],
+    "duration_ms": 1000,
+    "rate": 15.0,
+    "plant": "Torchwood",
+    "chinese": "火炬树桩",
+    "source": "Torchwood",
+    "bytes": 273003,
+    "sha256": "0ff0b707b755c9c5a4684f48a795f20432c760620878c17b25e26e491d05a1ac"
+  },
+  {
+    "file": "24_TallNut/idle.gif",
+    "action": "anim_idle",
+    "frames": 34,
+    "size": [
+      182,
+      254
+    ],
+    "duration_ms": 1360,
+    "rate": 12.0,
+    "plant": "TallNut",
+    "chinese": "高坚果",
+    "source": "Tallnut",
+    "bytes": 664982,
+    "sha256": "3db4e8952a0e149c1dc39b3aec47898fdfe62d48eb1270b316b5f3b35e52b200"
+  },
+  {
+    "file": "24_TallNut/blink_twice.gif",
+    "action": "anim_blink_twice",
+    "frames": 31,
+    "size": [
+      182,
+      254
+    ],
+    "duration_ms": 1240,
+    "rate": 15.0,
+    "plant": "TallNut",
+    "chinese": "高坚果",
+    "source": "Tallnut",
+    "bytes": 590523,
+    "sha256": "6cee9a2d2cba3b7dd4e9a87adf00fe1f153cd04dcadb70be7fabc4769a2cbd03"
+  },
+  {
+    "file": "24_TallNut/blink_thrice.gif",
+    "action": "anim_blink_thrice",
+    "frames": 37,
+    "size": [
+      182,
+      254
+    ],
+    "duration_ms": 1480,
+    "rate": 15.0,
+    "plant": "TallNut",
+    "chinese": "高坚果",
+    "source": "Tallnut",
+    "bytes": 707152,
+    "sha256": "8b5137d46c5d49da20e81dcf0992cf1760ddceb03f849148da5557272d08d58a"
+  },
+  {
+    "file": "24_TallNut/idle_damaged1.gif",
+    "action": "anim_idle",
+    "frames": 34,
+    "size": [
+      182,
+      254
+    ],
+    "duration_ms": 1360,
+    "rate": 12.0,
+    "plant": "TallNut",
+    "chinese": "高坚果",
+    "source": "Tallnut",
+    "variant": "idle_damaged1",
+    "bytes": 665522,
+    "sha256": "d4c7eb7ec4347adcefff197ff2a4142024c1968b01cd89df6cf4d21dc4dfea91"
+  },
+  {
+    "file": "24_TallNut/idle_damaged2.gif",
+    "action": "anim_idle",
+    "frames": 34,
+    "size": [
+      182,
+      252
+    ],
+    "duration_ms": 1360,
+    "rate": 12.0,
+    "plant": "TallNut",
+    "chinese": "高坚果",
+    "source": "Tallnut",
+    "variant": "idle_damaged2",
+    "bytes": 672848,
+    "sha256": "8c2a9ecf2d1865c51c08804a465aa2c931ca5d76e283e9cac4e47b98a23886bb"
+  },
+  {
+    "file": "25_SeaShroom/blink.gif",
+    "action": "anim_blink",
+    "frames": 25,
+    "size": [
+      110,
+      114
+    ],
+    "duration_ms": 1000,
+    "rate": 15.0,
+    "plant": "SeaShroom",
+    "chinese": "海蘑菇",
+    "source": "SeaShroom",
+    "bytes": 104069,
+    "sha256": "104a9ba3401189d7b53daae75072d05d6fbc96be82c41ce430022cf44f488844"
+  },
+  {
+    "file": "25_SeaShroom/sleep.gif",
+    "action": "anim_sleep",
+    "frames": 50,
+    "size": [
+      110,
+      130
+    ],
+    "duration_ms": 2000,
+    "rate": 12.0,
+    "plant": "SeaShroom",
+    "chinese": "海蘑菇",
+    "source": "SeaShroom",
+    "bytes": 207692,
+    "sha256": "d7400ff03b660d443e2cc54dc683e1142664638ed98956c8abf530399b760008"
+  },
+  {
+    "file": "25_SeaShroom/idle.gif",
+    "action": "anim_idle",
+    "frames": 50,
+    "size": [
+      110,
+      130
+    ],
+    "duration_ms": 2000,
+    "rate": 12.0,
+    "plant": "SeaShroom",
+    "chinese": "海蘑菇",
+    "source": "SeaShroom",
+    "bytes": 207522,
+    "sha256": "5b2f49447311d7f3e011b709f97a75f85dc05b530c288fb4c0602e51998a0f28"
+  },
+  {
+    "file": "25_SeaShroom/idle_aquarium.gif",
+    "action": "anim_idle_aquarium",
+    "frames": 50,
+    "size": [
+      122,
+      100
+    ],
+    "duration_ms": 2000,
+    "rate": 12.0,
+    "plant": "SeaShroom",
+    "chinese": "海蘑菇",
+    "source": "SeaShroom",
+    "bytes": 267032,
+    "sha256": "69570803e1d53eaade63925e4ce3e37b963f83a921302b19bfcce6cc93934705"
+  },
+  {
+    "file": "25_SeaShroom/shooting.gif",
+    "action": "anim_shooting",
+    "frames": 10,
+    "size": [
+      126,
+      136
+    ],
+    "duration_ms": 400,
+    "rate": 35.0,
+    "plant": "SeaShroom",
+    "chinese": "海蘑菇",
+    "source": "SeaShroom",
+    "bytes": 43435,
+    "sha256": "ecb81690ebb1e61b3dd9df8f17b3b3ed263aea4fa6e7efde884fb67a554900ff"
+  },
+  {
+    "file": "26_Plantern/idle.gif",
+    "action": "anim_idle",
+    "frames": 40,
+    "size": [
+      186,
+      192
+    ],
+    "duration_ms": 1600,
+    "rate": 12.0,
+    "plant": "Plantern",
+    "chinese": "路灯花",
+    "source": "Plantern",
+    "bytes": 484343,
+    "sha256": "5ebebafd94ccf12ec3bcba2d980e56bfc7c552c2a22d3767679d66d0b6a01b10"
+  },
+  {
+    "file": "26_Plantern/blink.gif",
+    "action": "anim_blink",
+    "frames": 27,
+    "size": [
+      186,
+      192
+    ],
+    "duration_ms": 1080,
+    "rate": 15.0,
+    "plant": "Plantern",
+    "chinese": "路灯花",
+    "source": "Plantern",
+    "bytes": 325784,
+    "sha256": "8fad76cc49e56ec5aa9112ad2fdd349df904479364d790eefa7d4755009e3ecf"
+  },
+  {
+    "file": "27_Cactus/blink.gif",
+    "action": "anim_blink",
+    "frames": 27,
+    "size": [
+      192,
+      180
+    ],
+    "duration_ms": 1080,
+    "rate": 15.0,
+    "plant": "Cactus",
+    "chinese": "仙人掌",
+    "source": "Cactus",
+    "bytes": 392751,
+    "sha256": "714e7b2e3e0c076355db08e6e0c21d426de98181cd8b5e15010cdf3a355cc125"
+  },
+  {
+    "file": "27_Cactus/idle.gif",
+    "action": "anim_idle",
+    "frames": 30,
+    "size": [
+      192,
+      180
+    ],
+    "duration_ms": 1200,
+    "rate": 12.0,
+    "plant": "Cactus",
+    "chinese": "仙人掌",
+    "source": "Cactus",
+    "bytes": 436138,
+    "sha256": "dab7fd1c562826f6bd77d14174706898c26530ceb57ad2783959bba1ff43f5b7"
+  },
+  {
+    "file": "27_Cactus/shooting.gif",
+    "action": "anim_shooting",
+    "frames": 13,
+    "size": [
+      212,
+      170
+    ],
+    "duration_ms": 520,
+    "rate": 35.0,
+    "plant": "Cactus",
+    "chinese": "仙人掌",
+    "source": "Cactus",
+    "bytes": 180678,
+    "sha256": "f84d0139d5aa8f9cc9bf53a4c9419399668c910d2a0c5c2ba8d3a6e08ebb329c"
+  },
+  {
+    "file": "27_Cactus/rise.gif",
+    "action": "anim_rise",
+    "frames": 30,
+    "size": [
+      186,
+      340
+    ],
+    "duration_ms": 1200,
+    "rate": 12.0,
+    "plant": "Cactus",
+    "chinese": "仙人掌",
+    "source": "Cactus",
+    "bytes": 527942,
+    "sha256": "66166a16127411fa959fa6cd3ab9c5c53d9f7fa9e98a262d430b9fdc38f8895b"
+  },
+  {
+    "file": "27_Cactus/idlehigh.gif",
+    "action": "anim_idlehigh",
+    "frames": 30,
+    "size": [
+      192,
+      330
+    ],
+    "duration_ms": 1200,
+    "rate": 12.0,
+    "plant": "Cactus",
+    "chinese": "仙人掌",
+    "source": "Cactus",
+    "bytes": 658204,
+    "sha256": "28984ae1f760202b5fd053da64ab674279f8a1cef4e659b7077afadf91b526ab"
+  },
+  {
+    "file": "27_Cactus/shootinghigh.gif",
+    "action": "anim_shootinghigh",
+    "frames": 10,
+    "size": [
+      286,
+      330
+    ],
+    "duration_ms": 400,
+    "rate": 35.0,
+    "plant": "Cactus",
+    "chinese": "仙人掌",
+    "source": "Cactus",
+    "bytes": 224394,
+    "sha256": "72029f35ac667a9bb40845a8d2910a1d758b1a982b939c7367805e4856bb58c9"
+  },
+  {
+    "file": "27_Cactus/lower.gif",
+    "action": "anim_lower",
+    "frames": 25,
+    "size": [
+      186,
+      322
+    ],
+    "duration_ms": 1000,
+    "rate": 12.0,
+    "plant": "Cactus",
+    "chinese": "仙人掌",
+    "source": "Cactus",
+    "bytes": 416881,
+    "sha256": "1926afcd479e7261d3b7809feb783e8e8096765d68377c8028e241003e54854f"
+  },
+  {
+    "file": "28_Blover/idle.gif",
+    "action": "anim_idle",
+    "frames": 67,
+    "size": [
+      270,
+      204
+    ],
+    "duration_ms": 2680,
+    "rate": 12.0,
+    "plant": "Blover",
+    "chinese": "三叶草",
+    "source": "Blover",
+    "bytes": 690852,
+    "sha256": "7fb97f813ea74138c158277d7a375ef9fb3374760d3c8fa45c60d43d8bed6a2b"
+  },
+  {
+    "file": "28_Blover/loop.gif",
+    "action": "anim_loop",
+    "frames": 19,
+    "size": [
+      274,
+      272
+    ],
+    "duration_ms": 760,
+    "rate": 12.0,
+    "plant": "Blover",
+    "chinese": "三叶草",
+    "source": "Blover",
+    "bytes": 283908,
+    "sha256": "0a056b753b754ddff0cb6ae5a9eb2193eea2902785c000d9f0345642e1e24614"
+  },
+  {
+    "file": "28_Blover/blow.gif",
+    "action": "anim_blow",
+    "frames": 24,
+    "size": [
+      302,
+      266
+    ],
+    "duration_ms": 960,
+    "rate": 20.0,
+    "plant": "Blover",
+    "chinese": "三叶草",
+    "source": "Blover",
+    "bytes": 280499,
+    "sha256": "bfe67378e0286c15dedbf17364ea70fd97850fdbb0b3e0ba270bf0b4cea1eb6b"
+  },
+  {
+    "file": "29_SplitPea/idle.gif",
+    "action": "anim_idle",
+    "frames": 35,
+    "size": [
+      202,
+      164
+    ],
+    "duration_ms": 1400,
+    "rate": 17.5,
+    "plant": "SplitPea",
+    "chinese": "裂荚射手",
+    "source": "SplitPea",
+    "bytes": 382771,
+    "sha256": "9d18dc280769eb8dc9a8eff460f57edd47c523f16bf67863800cc1599384b221"
+  },
+  {
+    "file": "29_SplitPea/shooting.gif",
+    "action": "anim_shooting",
+    "frames": 14,
+    "size": [
+      194,
+      162
+    ],
+    "duration_ms": 560,
+    "rate": 45.0,
+    "plant": "SplitPea",
+    "chinese": "裂荚射手",
+    "source": "SplitPea",
+    "bytes": 154094,
+    "sha256": "3ee80c9bacd680db54ac3fc1990814300f41664229f8d42c19eb92eb90a41baa"
+  },
+  {
+    "file": "29_SplitPea/head_idle.gif",
+    "action": "anim_head_idle",
+    "frames": 35,
+    "size": [
+      202,
+      164
+    ],
+    "duration_ms": 1400,
+    "rate": 17.5,
+    "plant": "SplitPea",
+    "chinese": "裂荚射手",
+    "source": "SplitPea",
+    "bytes": 382771,
+    "sha256": "9d18dc280769eb8dc9a8eff460f57edd47c523f16bf67863800cc1599384b221"
+  },
+  {
+    "file": "29_SplitPea/splitpea_idle.gif",
+    "action": "anim_splitpea_idle",
+    "frames": 35,
+    "size": [
+      202,
+      164
+    ],
+    "duration_ms": 1400,
+    "rate": 17.5,
+    "plant": "SplitPea",
+    "chinese": "裂荚射手",
+    "source": "SplitPea",
+    "bytes": 382771,
+    "sha256": "9d18dc280769eb8dc9a8eff460f57edd47c523f16bf67863800cc1599384b221"
+  },
+  {
+    "file": "29_SplitPea/splitpea_shooting.gif",
+    "action": "anim_splitpea_shooting",
+    "frames": 7,
+    "size": [
+      206,
+      164
+    ],
+    "duration_ms": 280,
+    "rate": 45.0,
+    "plant": "SplitPea",
+    "chinese": "裂荚射手",
+    "source": "SplitPea",
+    "bytes": 75723,
+    "sha256": "d8f17cd6c51f629d9d1c2f66336078449df75b3f47a162a8412c7fb2cd914b1a"
+  },
+  {
+    "file": "29_SplitPea/blink.gif",
+    "action": "anim_blink",
+    "frames": 24,
+    "size": [
+      202,
+      164
+    ],
+    "duration_ms": 960,
+    "rate": 15.0,
+    "plant": "SplitPea",
+    "chinese": "裂荚射手",
+    "source": "SplitPea",
+    "bytes": 261586,
+    "sha256": "7f7bf1a29406ba30341b00bad9685092f315458926e32c4a1d22b030487a0404"
+  },
+  {
+    "file": "29_SplitPea/SplitPea_blink.gif",
+    "action": "anim_SplitPea_blink",
+    "frames": 24,
+    "size": [
+      202,
+      164
+    ],
+    "duration_ms": 960,
+    "rate": 15.0,
+    "plant": "SplitPea",
+    "chinese": "裂荚射手",
+    "source": "SplitPea",
+    "bytes": 261212,
+    "sha256": "e2d2d4ed09cdae3c39e96061a78bd1264385b66c82a9b4fa3354e3d2c1413ec0"
+  },
+  {
+    "file": "30_Starfruit/blink.gif",
+    "action": "anim_blink",
+    "frames": 27,
+    "size": [
+      168,
+      158
+    ],
+    "duration_ms": 1080,
+    "rate": 15.0,
+    "plant": "Starfruit",
+    "chinese": "杨桃",
+    "source": "Starfruit",
+    "bytes": 234828,
+    "sha256": "25e70ff4c061f30eb4a39caf5ba0fe30715e250826eb30a947a79f94b31bab07"
+  },
+  {
+    "file": "30_Starfruit/idle.gif",
+    "action": "anim_idle",
+    "frames": 34,
+    "size": [
+      168,
+      158
+    ],
+    "duration_ms": 1360,
+    "rate": 12.0,
+    "plant": "Starfruit",
+    "chinese": "杨桃",
+    "source": "Starfruit",
+    "bytes": 298823,
+    "sha256": "8a0afab91bd6de4113ef90c27be8dc85757b3fa0e96aba4dbbf62c6f0c48b5f8"
+  },
+  {
+    "file": "30_Starfruit/shoot.gif",
+    "action": "anim_shoot",
+    "frames": 12,
+    "size": [
+      172,
+      156
+    ],
+    "duration_ms": 480,
+    "rate": 35.0,
+    "plant": "Starfruit",
+    "chinese": "杨桃",
+    "source": "Starfruit",
+    "bytes": 105318,
+    "sha256": "cde8e83ee45e2d4484a3b25b610d43017f2faaa35ae68397e4741a9b848f56e0"
+  },
+  {
+    "file": "31_Pumpkin/idle.gif",
+    "action": "anim_idle",
+    "frames": 42,
+    "size": [
+      216,
+      150
+    ],
+    "duration_ms": 1680,
+    "rate": 12.0,
+    "plant": "Pumpkin",
+    "chinese": "南瓜头",
+    "source": "Pumpkin",
+    "bytes": 695428,
+    "sha256": "9dbec00b91da1c41c1850bc52b9e7d32cc93f73d7b01c0117f076265860f3895"
+  },
+  {
+    "file": "31_Pumpkin/idle_damaged1.gif",
+    "action": "anim_idle",
+    "frames": 42,
+    "size": [
+      216,
+      150
+    ],
+    "duration_ms": 1680,
+    "rate": 12.0,
+    "plant": "Pumpkin",
+    "chinese": "南瓜头",
+    "source": "Pumpkin",
+    "variant": "idle_damaged1",
+    "bytes": 699542,
+    "sha256": "b268f54fcfbe4638b8ae71f9a1ad68139baa9c72d228aedf6db988c5ee1cd326"
+  },
+  {
+    "file": "31_Pumpkin/idle_damaged2.gif",
+    "action": "anim_idle",
+    "frames": 42,
+    "size": [
+      216,
+      150
+    ],
+    "duration_ms": 1680,
+    "rate": 12.0,
+    "plant": "Pumpkin",
+    "chinese": "南瓜头",
+    "source": "Pumpkin",
+    "variant": "idle_damaged2",
+    "bytes": 706231,
+    "sha256": "b9f3baa5357383d2229a1ad496ddf15a09293ec9703eef5c0c3b638f3c77952b"
+  },
+  {
+    "file": "31_Pumpkin/idle_damaged3.gif",
+    "action": "anim_idle",
+    "frames": 42,
+    "size": [
+      216,
+      150
+    ],
+    "duration_ms": 1680,
+    "rate": 12.0,
+    "plant": "Pumpkin",
+    "chinese": "南瓜头",
+    "source": "Pumpkin",
+    "variant": "idle_damaged3",
+    "bytes": 706853,
+    "sha256": "ea20bb0416e438941785fe6055464f717b3c73ded24855e0267d3d620d33e299"
+  },
+  {
+    "file": "32_MagnetShroom/blink.gif",
+    "action": "anim_blink",
+    "frames": 24,
+    "size": [
+      176,
+      176
+    ],
+    "duration_ms": 960,
+    "rate": 15.0,
+    "plant": "MagnetShroom",
+    "chinese": "磁力菇",
+    "source": "Magnetshroom",
+    "bytes": 167599,
+    "sha256": "1e0540387732a38076ae47e2c81b2fe582c6154061d3d56736f9497628d466d3"
+  },
+  {
+    "file": "32_MagnetShroom/idle.gif",
+    "action": "anim_idle",
+    "frames": 59,
+    "size": [
+      196,
+      176
+    ],
+    "duration_ms": 2360,
+    "rate": 12.0,
+    "plant": "MagnetShroom",
+    "chinese": "磁力菇",
+    "source": "Magnetshroom",
+    "bytes": 415383,
+    "sha256": "1c5cbb47a3759336e3f356a24e626ec9d475331c7122530b3e5547cd1a13bc74"
+  },
+  {
+    "file": "32_MagnetShroom/nonactive_idle.gif",
+    "action": "anim_nonactive_idle",
+    "frames": 59,
+    "size": [
+      196,
+      176
+    ],
+    "duration_ms": 2360,
+    "rate": 12.0,
+    "plant": "MagnetShroom",
+    "chinese": "磁力菇",
+    "source": "Magnetshroom",
+    "bytes": 383884,
+    "sha256": "be3c1d96ba1b029ed33fd1e90b93275e2b372b73459e7e1cf513463ba8e720d8"
+  },
+  {
+    "file": "32_MagnetShroom/shooting.gif",
+    "action": "anim_shooting",
+    "frames": 18,
+    "size": [
+      224,
+      194
+    ],
+    "duration_ms": 720,
+    "rate": 35.0,
+    "plant": "MagnetShroom",
+    "chinese": "磁力菇",
+    "source": "Magnetshroom",
+    "bytes": 125765,
+    "sha256": "c2ecae0325c7f4709701237d5dd69d3e3e507b346573364235c731bf7e06c52a"
+  },
+  {
+    "file": "32_MagnetShroom/sleep.gif",
+    "action": "anim_sleep",
+    "frames": 36,
+    "size": [
+      156,
+      178
+    ],
+    "duration_ms": 1440,
+    "rate": 12.0,
+    "plant": "MagnetShroom",
+    "chinese": "磁力菇",
+    "source": "Magnetshroom",
+    "bytes": 239489,
+    "sha256": "4a85b7135924b6ae7fc5fe0115035923d2649b8114f219c78a927d42aaa42711"
+  },
+  {
+    "file": "32_MagnetShroom/nonactive_idle2.gif",
+    "action": "anim_nonactive_idle2",
+    "frames": 9,
+    "size": [
+      216,
+      190
+    ],
+    "duration_ms": 360,
+    "rate": 12.0,
+    "plant": "MagnetShroom",
+    "chinese": "磁力菇",
+    "source": "Magnetshroom",
+    "bytes": 59495,
+    "sha256": "4674f373c52cdc26c628c75ea4387efc4b0645859599162c0689353e60849caf"
+  },
+  {
+    "file": "33_CabbagePult/blink.gif",
+    "action": "anim_blink",
+    "frames": 27,
+    "size": [
+      206,
+      164
+    ],
+    "duration_ms": 1080,
+    "rate": 15.0,
+    "plant": "CabbagePult",
+    "chinese": "卷心菜投手",
+    "source": "Cabbagepult",
+    "bytes": 306875,
+    "sha256": "6915eff641b2cbd499b2db1ca17d9c440b681d4fa83f1ac76a095b21ec20d8fb"
+  },
+  {
+    "file": "33_CabbagePult/idle.gif",
+    "action": "anim_idle",
+    "frames": 63,
+    "size": [
+      206,
+      188
+    ],
+    "duration_ms": 2520,
+    "rate": 12.0,
+    "plant": "CabbagePult",
+    "chinese": "卷心菜投手",
+    "source": "Cabbagepult",
+    "bytes": 719661,
+    "sha256": "9c618f9b3f24f02b78e6e0931c7a7477d8c7f3a5ad864622bc133359d925e8a1"
+  },
+  {
+    "file": "33_CabbagePult/shooting.gif",
+    "action": "anim_shooting",
+    "frames": 27,
+    "size": [
+      218,
+      230
+    ],
+    "duration_ms": 1080,
+    "rate": 35.0,
+    "plant": "CabbagePult",
+    "chinese": "卷心菜投手",
+    "source": "Cabbagepult",
+    "bytes": 291467,
+    "sha256": "8bdc13d2851eb61cf18ee252848bf2638989c79597b692ba55dbde47dce9bbfb"
+  },
+  {
+    "file": "34_FlowerPot/idle.gif",
+    "action": "anim_idle",
+    "frames": 25,
+    "size": [
+      146,
+      146
+    ],
+    "duration_ms": 1000,
+    "rate": 12.0,
+    "plant": "FlowerPot",
+    "chinese": "花盆",
+    "source": "Pot",
+    "bytes": 290873,
+    "sha256": "dfcf46aaf7b0f7926d042ed3ca64eee2c5b49073a63ec3dff9210564a8472639"
+  },
+  {
+    "file": "34_FlowerPot/zengarden.gif",
+    "action": "anim_zengarden",
+    "frames": 25,
+    "size": [
+      146,
+      136
+    ],
+    "duration_ms": 1000,
+    "rate": 12.0,
+    "plant": "FlowerPot",
+    "chinese": "花盆",
+    "source": "Pot",
+    "bytes": 280365,
+    "sha256": "a6228bdbf4851197473e43dad91dca3bf07d8059b98ea487f9bd713da141c230"
+  },
+  {
+    "file": "34_FlowerPot/waterplants.gif",
+    "action": "anim_waterplants",
+    "frames": 25,
+    "size": [
+      198,
+      160
+    ],
+    "duration_ms": 1000,
+    "rate": 12.0,
+    "plant": "FlowerPot",
+    "chinese": "花盆",
+    "source": "Pot",
+    "bytes": 408718,
+    "sha256": "62f575be18a44c342dcc25573b233b1d22906f443545d3c808089a4012709e10"
+  },
+  {
+    "file": "35_KernelPult/blink.gif",
+    "action": "anim_blink",
+    "frames": 27,
+    "size": [
+      226,
+      182
+    ],
+    "duration_ms": 1080,
+    "rate": 15.0,
+    "plant": "KernelPult",
+    "chinese": "玉米投手",
+    "source": "Cornpult",
+    "bytes": 330901,
+    "sha256": "b1ee3e6732df1af78efbcefdf2d7ed0d7661b2035628c1a619674d3d2673a866"
+  },
+  {
+    "file": "35_KernelPult/idle.gif",
+    "action": "anim_idle",
+    "frames": 38,
+    "size": [
+      226,
+      182
+    ],
+    "duration_ms": 1520,
+    "rate": 12.0,
+    "plant": "KernelPult",
+    "chinese": "玉米投手",
+    "source": "Cornpult",
+    "bytes": 467445,
+    "sha256": "4d021ff4aa5260abc14ff1063eb887247211222cb9f6a466ee2d2840bbdd03bd"
+  },
+  {
+    "file": "35_KernelPult/shooting.gif",
+    "action": "anim_shooting",
+    "frames": 24,
+    "size": [
+      228,
+      270
+    ],
+    "duration_ms": 960,
+    "rate": 35.0,
+    "plant": "KernelPult",
+    "chinese": "玉米投手",
+    "source": "Cornpult",
+    "bytes": 293500,
+    "sha256": "8c7ddd3bc05152867e0d05f5cd49dcdaef8a720c97f9c754079b2c795b0685e9"
+  },
+  {
+    "file": "35_KernelPult/full_idle.gif",
+    "action": "anim_full_idle",
+    "frames": 38,
+    "size": [
+      226,
+      182
+    ],
+    "duration_ms": 1520,
+    "rate": 12.0,
+    "plant": "KernelPult",
+    "chinese": "玉米投手",
+    "source": "Cornpult",
+    "bytes": 467445,
+    "sha256": "4d021ff4aa5260abc14ff1063eb887247211222cb9f6a466ee2d2840bbdd03bd"
+  },
+  {
+    "file": "35_KernelPult/idle_butter.gif",
+    "action": "anim_idle",
+    "frames": 38,
+    "size": [
+      230,
+      214
+    ],
+    "duration_ms": 1520,
+    "rate": 12.0,
+    "plant": "KernelPult",
+    "chinese": "玉米投手",
+    "source": "Cornpult",
+    "variant": "idle_butter",
+    "bytes": 492707,
+    "sha256": "d75fd47e23828378518ddb1f728cc506b3b922e6d231f7ed0dfe54adf61fe449"
+  },
+  {
+    "file": "35_KernelPult/shooting_butter.gif",
+    "action": "anim_shooting",
+    "frames": 24,
+    "size": [
+      270,
+      280
+    ],
+    "duration_ms": 960,
+    "rate": 35.0,
+    "plant": "KernelPult",
+    "chinese": "玉米投手",
+    "source": "Cornpult",
+    "variant": "shooting_butter",
+    "bytes": 291325,
+    "sha256": "fc90e8ce7d02de9e20d5912cddfb961877faf3ded68f53ab20a3ba4ef958d671"
+  },
+  {
+    "file": "36_CoffeeBean/idle.gif",
+    "action": "anim_idle",
+    "frames": 17,
+    "size": [
+      106,
+      286
+    ],
+    "duration_ms": 680,
+    "rate": 12.0,
+    "plant": "CoffeeBean",
+    "chinese": "咖啡豆",
+    "source": "Coffeebean",
+    "bytes": 111571,
+    "sha256": "79f9ff1aeb7ea137b2e5d7a7281ab61f2e6ce75d555124251e79bebfb327b889"
+  },
+  {
+    "file": "36_CoffeeBean/twitch.gif",
+    "action": "anim_twitch",
+    "frames": 1,
+    "size": [
+      106,
+      276
+    ],
+    "duration_ms": 360,
+    "rate": 12.0,
+    "plant": "CoffeeBean",
+    "chinese": "咖啡豆",
+    "source": "Coffeebean",
+    "bytes": 6953,
+    "sha256": "132cd83632f3f0165c55b55c1e2442d74a025ef377302af0b069a571a0c17164"
+  },
+  {
+    "file": "36_CoffeeBean/crumble.gif",
+    "action": "anim_crumble",
+    "frames": 27,
+    "size": [
+      110,
+      302
+    ],
+    "duration_ms": 1200,
+    "rate": 12.0,
+    "plant": "CoffeeBean",
+    "chinese": "咖啡豆",
+    "source": "Coffeebean",
+    "bytes": 87775,
+    "sha256": "930261dc87b836805a61d1c20000d1cafbb1e3128b77f5f28fdaa9d32a4ed4ae"
+  },
+  {
+    "file": "37_Garlic/blink.gif",
+    "action": "anim_blink",
+    "frames": 24,
+    "size": [
+      134,
+      230
+    ],
+    "duration_ms": 960,
+    "rate": 15.0,
+    "plant": "Garlic",
+    "chinese": "大蒜",
+    "source": "Garlic",
+    "bytes": 200144,
+    "sha256": "73845c65b8ae1dcf689ddc6670ce09a61fd4fcb135378771e604e2cfa6b71bc8"
+  },
+  {
+    "file": "37_Garlic/idle.gif",
+    "action": "anim_idle",
+    "frames": 30,
+    "size": [
+      134,
+      230
+    ],
+    "duration_ms": 1200,
+    "rate": 12.0,
+    "plant": "Garlic",
+    "chinese": "大蒜",
+    "source": "Garlic",
+    "bytes": 250900,
+    "sha256": "64ad85c6c033fc9b463887dd53d862b05b2367a65004a3ca54d907236531f950"
+  },
+  {
+    "file": "37_Garlic/idle_damaged1.gif",
+    "action": "anim_idle",
+    "frames": 30,
+    "size": [
+      134,
+      230
+    ],
+    "duration_ms": 1200,
+    "rate": 12.0,
+    "plant": "Garlic",
+    "chinese": "大蒜",
+    "source": "Garlic",
+    "variant": "idle_damaged1",
+    "bytes": 249877,
+    "sha256": "acf04abf11abb4a7e21f18edc4d85b3ca082b66a1fcf6cd208e3128c28ed6089"
+  },
+  {
+    "file": "37_Garlic/idle_damaged2.gif",
+    "action": "anim_idle",
+    "frames": 30,
+    "size": [
+      134,
+      230
+    ],
+    "duration_ms": 1200,
+    "rate": 12.0,
+    "plant": "Garlic",
+    "chinese": "大蒜",
+    "source": "Garlic",
+    "variant": "idle_damaged2",
+    "bytes": 240920,
+    "sha256": "69565f71742093e9d6544272997f2660c40b2e5b17b7e3d00bee68887d3754f7"
+  },
+  {
+    "file": "38_UmbrellaLeaf/blink.gif",
+    "action": "anim_blink",
+    "frames": 25,
+    "size": [
+      178,
+      148
+    ],
+    "duration_ms": 1000,
+    "rate": 15.0,
+    "plant": "UmbrellaLeaf",
+    "chinese": "叶子保护伞",
+    "source": "Umbrellaleaf",
+    "bytes": 291345,
+    "sha256": "d8fbad0ca6471bf2ddab2b4a97c5da6ba6f989e78f9ef66bdc1fe8b2f081e2c0"
+  },
+  {
+    "file": "38_UmbrellaLeaf/idle.gif",
+    "action": "anim_idle",
+    "frames": 30,
+    "size": [
+      178,
+      148
+    ],
+    "duration_ms": 1200,
+    "rate": 12.0,
+    "plant": "UmbrellaLeaf",
+    "chinese": "叶子保护伞",
+    "source": "Umbrellaleaf",
+    "bytes": 348564,
+    "sha256": "759983a711c68084f1a180b99bf19abc6201d1d834495acb0276fe9cee3827a8"
+  },
+  {
+    "file": "38_UmbrellaLeaf/block.gif",
+    "action": "anim_block",
+    "frames": 25,
+    "size": [
+      646,
+      624
+    ],
+    "duration_ms": 1000,
+    "rate": 12.0,
+    "plant": "UmbrellaLeaf",
+    "chinese": "叶子保护伞",
+    "source": "Umbrellaleaf",
+    "bytes": 1525473,
+    "sha256": "7bd9cec18c81d8928a645432a837985cf83ed76bccd019de338fec62b85ade95"
+  },
+  {
+    "file": "39_Marigold/idle.gif",
+    "action": "anim_idle",
+    "frames": 35,
+    "size": [
+      134,
+      172
+    ],
+    "duration_ms": 1400,
+    "rate": 17.5,
+    "plant": "Marigold",
+    "chinese": "金盏花",
+    "source": "Marigold",
+    "bytes": 285126,
+    "sha256": "8a264726ee0803c98bc468f2b4e15dd8c4add7b8860318547f13ce8d417610f7"
+  },
+  {
+    "file": "39_Marigold/blink.gif",
+    "action": "anim_blink",
+    "frames": 27,
+    "size": [
+      134,
+      172
+    ],
+    "duration_ms": 1080,
+    "rate": 15.0,
+    "plant": "Marigold",
+    "chinese": "金盏花",
+    "source": "Marigold",
+    "bytes": 214086,
+    "sha256": "7b20a4c6fa1b74c8ad25791f67e280923e701768133415ee30171e68e815568b"
+  },
+  {
+    "file": "40_MelonPult/blink.gif",
+    "action": "anim_blink",
+    "frames": 27,
+    "size": [
+      258,
+      220
+    ],
+    "duration_ms": 1080,
+    "rate": 15.0,
+    "plant": "MelonPult",
+    "chinese": "西瓜投手",
+    "source": "Melonpult",
+    "bytes": 420105,
+    "sha256": "bbb6174ab4e1e626dcbc8028061a07be4c2ab476e91e035312f5ce9f3f4eb54e"
+  },
+  {
+    "file": "40_MelonPult/idle.gif",
+    "action": "anim_idle",
+    "frames": 63,
+    "size": [
+      258,
+      220
+    ],
+    "duration_ms": 2520,
+    "rate": 12.0,
+    "plant": "MelonPult",
+    "chinese": "西瓜投手",
+    "source": "Melonpult",
+    "bytes": 973641,
+    "sha256": "aa1c2efa928b332a98f4724eec7c7481e394e5d6b0dd1e159194a3f549524bcb"
+  },
+  {
+    "file": "40_MelonPult/shooting.gif",
+    "action": "anim_shooting",
+    "frames": 27,
+    "size": [
+      296,
+      308
+    ],
+    "duration_ms": 1080,
+    "rate": 35.0,
+    "plant": "MelonPult",
+    "chinese": "西瓜投手",
+    "source": "Melonpult",
+    "bytes": 350573,
+    "sha256": "f74c2bf4b38922b412069cf3d702c8d3e18b3ca165ad0bd8588cc0185c105c8f"
+  },
+  {
+    "file": "41_GatlingPea/idle.gif",
+    "action": "anim_idle",
+    "frames": 35,
+    "size": [
+      188,
+      186
+    ],
+    "duration_ms": 1400,
+    "rate": 17.5,
+    "plant": "GatlingPea",
+    "chinese": "机枪射手",
+    "source": "GatlingPea",
+    "bytes": 425908,
+    "sha256": "f767e6e6ab987bc4cdb5456fc96f2a9c65b0b1952695ba2bb8ba3fdcb00e57eb"
+  },
+  {
+    "file": "41_GatlingPea/shooting.gif",
+    "action": "anim_shooting",
+    "frames": 25,
+    "size": [
+      198,
+      196
+    ],
+    "duration_ms": 1000,
+    "rate": 38.0,
+    "plant": "GatlingPea",
+    "chinese": "机枪射手",
+    "source": "GatlingPea",
+    "bytes": 303375,
+    "sha256": "f2d49b41f07a3f11609a8bcdb965c5dca4040e49c10503f5be21c5335e23dcd9"
+  },
+  {
+    "file": "41_GatlingPea/head_idle.gif",
+    "action": "anim_head_idle",
+    "frames": 35,
+    "size": [
+      188,
+      186
+    ],
+    "duration_ms": 1400,
+    "rate": 17.5,
+    "plant": "GatlingPea",
+    "chinese": "机枪射手",
+    "source": "GatlingPea",
+    "bytes": 425908,
+    "sha256": "f767e6e6ab987bc4cdb5456fc96f2a9c65b0b1952695ba2bb8ba3fdcb00e57eb"
+  },
+  {
+    "file": "41_GatlingPea/blink.gif",
+    "action": "anim_blink",
+    "frames": 24,
+    "size": [
+      188,
+      184
+    ],
+    "duration_ms": 960,
+    "rate": 15.0,
+    "plant": "GatlingPea",
+    "chinese": "机枪射手",
+    "source": "GatlingPea",
+    "bytes": 292133,
+    "sha256": "bb5ee474ee0e4b85db80ac5118e268ed2af7edce10481456cd818b6c6a8c9e97"
+  },
+  {
+    "file": "42_TwinSunflower/blink.gif",
+    "action": "anim_blink",
+    "frames": 27,
+    "size": [
+      186,
+      186
+    ],
+    "duration_ms": 1080,
+    "rate": 15.0,
+    "plant": "TwinSunflower",
+    "chinese": "双子向日葵",
+    "source": "TwinSunFlower",
+    "bytes": 360682,
+    "sha256": "287c5328f30c3a3bd13b74a993b5fe49541efcd9593ce8ddede79812d8af40fb"
+  },
+  {
+    "file": "42_TwinSunflower/blink2.gif",
+    "action": "anim_blink2",
+    "frames": 25,
+    "size": [
+      186,
+      186
+    ],
+    "duration_ms": 1000,
+    "rate": 15.0,
+    "plant": "TwinSunflower",
+    "chinese": "双子向日葵",
+    "source": "TwinSunFlower",
+    "bytes": 335800,
+    "sha256": "f12d2f267dc73e5c07d77c6c8d810a415c7bee184b87c60e124bcfa460da8aca"
+  },
+  {
+    "file": "42_TwinSunflower/idle.gif",
+    "action": "anim_idle",
+    "frames": 50,
+    "size": [
+      186,
+      186
+    ],
+    "duration_ms": 2000,
+    "rate": 12.0,
+    "plant": "TwinSunflower",
+    "chinese": "双子向日葵",
+    "source": "TwinSunFlower",
+    "bytes": 669037,
+    "sha256": "cba5b1b679ea18d5dab18c441ca92ae4ecb3e5239ff4002dfea6e4a775a790f9"
+  },
+  {
+    "file": "43_GloomShroom/blink.gif",
+    "action": "anim_blink",
+    "frames": 27,
+    "size": [
+      184,
+      172
+    ],
+    "duration_ms": 1080,
+    "rate": 15.0,
+    "plant": "GloomShroom",
+    "chinese": "忧郁菇",
+    "source": "GloomShroom",
+    "bytes": 413824,
+    "sha256": "02c6f17292dfb63d75571094f67862f5cf130f0c7b727c42dc037b49f671af2a"
+  },
+  {
+    "file": "43_GloomShroom/idle.gif",
+    "action": "anim_idle",
+    "frames": 38,
+    "size": [
+      184,
+      172
+    ],
+    "duration_ms": 1520,
+    "rate": 12.0,
+    "plant": "GloomShroom",
+    "chinese": "忧郁菇",
+    "source": "GloomShroom",
+    "bytes": 582919,
+    "sha256": "648f38d25c1a5680bfd48be97a6f68ce32459da163eba4b50afa6b8932ea37fd"
+  },
+  {
+    "file": "43_GloomShroom/sleep.gif",
+    "action": "anim_sleep",
+    "frames": 38,
+    "size": [
+      184,
+      172
+    ],
+    "duration_ms": 1520,
+    "rate": 12.0,
+    "plant": "GloomShroom",
+    "chinese": "忧郁菇",
+    "source": "GloomShroom",
+    "bytes": 588907,
+    "sha256": "a4c46eb325df33e66fdd733f83b720ef7215f9ce2b8d553d942a0a1f3068b920"
+  },
+  {
+    "file": "43_GloomShroom/shooting.gif",
+    "action": "anim_shooting",
+    "frames": 49,
+    "size": [
+      212,
+      184
+    ],
+    "duration_ms": 1960,
+    "rate": 14.0,
+    "plant": "GloomShroom",
+    "chinese": "忧郁菇",
+    "source": "GloomShroom",
+    "bytes": 868945,
+    "sha256": "ccdf2b8cd8dc6c539ff3e0d2ef04a80405a99255f7da123d9bf50be7523160ea"
+  },
+  {
+    "file": "44_Cattail/blink.gif",
+    "action": "anim_blink",
+    "frames": 27,
+    "size": [
+      228,
+      164
+    ],
+    "duration_ms": 1080,
+    "rate": 15.0,
+    "plant": "Cattail",
+    "chinese": "香蒲",
+    "source": "Cattail",
+    "bytes": 363402,
+    "sha256": "7f2b3b325e2d2fc4f8dfb3ac15bd04a4aae10415efbe6d042ac08409705efbdd"
+  },
+  {
+    "file": "44_Cattail/idle.gif",
+    "action": "anim_idle",
+    "frames": 38,
+    "size": [
+      228,
+      164
+    ],
+    "duration_ms": 1520,
+    "rate": 12.0,
+    "plant": "Cattail",
+    "chinese": "香蒲",
+    "source": "Cattail",
+    "bytes": 506667,
+    "sha256": "17cd19fe8636fa549c524424ac8100befe637d18b8a7d38f56beda3acd90b151"
+  },
+  {
+    "file": "44_Cattail/shooting.gif",
+    "action": "anim_shooting",
+    "frames": 13,
+    "size": [
+      260,
+      188
+    ],
+    "duration_ms": 520,
+    "rate": 30.0,
+    "plant": "Cattail",
+    "chinese": "香蒲",
+    "source": "Cattail",
+    "bytes": 169165,
+    "sha256": "22cf9e868d6863cb8f66882ebc2f6690089067099949f85a8c6ea624fe70a621"
+  },
+  {
+    "file": "45_WinterMelon/blink.gif",
+    "action": "anim_blink",
+    "frames": 27,
+    "size": [
+      256,
+      240
+    ],
+    "duration_ms": 1080,
+    "rate": 15.0,
+    "plant": "WinterMelon",
+    "chinese": "冰西瓜",
+    "source": "WinterMelon",
+    "bytes": 482623,
+    "sha256": "f1b5449cfd8efa638317f26d21c03c6c0961aea19014a709f7dbe54e8e0309be"
+  },
+  {
+    "file": "45_WinterMelon/idle.gif",
+    "action": "anim_idle",
+    "frames": 63,
+    "size": [
+      260,
+      240
+    ],
+    "duration_ms": 2520,
+    "rate": 12.0,
+    "plant": "WinterMelon",
+    "chinese": "冰西瓜",
+    "source": "WinterMelon",
+    "bytes": 1123883,
+    "sha256": "c0ad808d68fc22e63c0e8c32347a168ba7f0f7b3748dc0acd8c2871244354428"
+  },
+  {
+    "file": "45_WinterMelon/shooting.gif",
+    "action": "anim_shooting",
+    "frames": 27,
+    "size": [
+      318,
+      310
+    ],
+    "duration_ms": 1080,
+    "rate": 35.0,
+    "plant": "WinterMelon",
+    "chinese": "冰西瓜",
+    "source": "WinterMelon",
+    "bytes": 404318,
+    "sha256": "b54574a95fb0939e3a1f403e15702fff851035c0d5e1d6bc0aae1ee668b8d594"
+  },
+  {
+    "file": "46_GoldMagnet/blink.gif",
+    "action": "anim_blink",
+    "frames": 24,
+    "size": [
+      220,
+      194
+    ],
+    "duration_ms": 960,
+    "rate": 15.0,
+    "plant": "GoldMagnet",
+    "chinese": "吸金磁",
+    "source": "GoldMagnet",
+    "bytes": 219981,
+    "sha256": "d8a853cd892e15a36788ada1cb76213d1338581544c324dac4ef84cd2dad808e"
+  },
+  {
+    "file": "46_GoldMagnet/idle.gif",
+    "action": "anim_idle",
+    "frames": 96,
+    "size": [
+      252,
+      196
+    ],
+    "duration_ms": 3840,
+    "rate": 12.0,
+    "plant": "GoldMagnet",
+    "chinese": "吸金磁",
+    "source": "GoldMagnet",
+    "bytes": 877342,
+    "sha256": "b8ad665e1fd75eab491d545f9ea06d8867ba26c3d8cc54820d512d9881531d77"
+  },
+  {
+    "file": "46_GoldMagnet/attract.gif",
+    "action": "anim_attract",
+    "frames": 63,
+    "size": [
+      338,
+      202
+    ],
+    "duration_ms": 2520,
+    "rate": 12.0,
+    "plant": "GoldMagnet",
+    "chinese": "吸金磁",
+    "source": "GoldMagnet",
+    "bytes": 488950,
+    "sha256": "51c2af0db0a0b7924602c44477e2e036a1da75027b68591299e3d0ed5cc71273"
+  },
+  {
+    "file": "47_Spikerock/blink.gif",
+    "action": "anim_blink",
+    "frames": 24,
+    "size": [
+      182,
+      102
+    ],
+    "duration_ms": 960,
+    "rate": 15.0,
+    "plant": "Spikerock",
+    "chinese": "地刺王",
+    "source": "SpikeRock",
+    "bytes": 234176,
+    "sha256": "dc38f5330e2f8bab182b279ed04fdd9d547e98ce4fb4c2df6d4c3173af0a3188"
+  },
+  {
+    "file": "47_Spikerock/idle.gif",
+    "action": "anim_idle",
+    "frames": 30,
+    "size": [
+      182,
+      102
+    ],
+    "duration_ms": 1200,
+    "rate": 12.0,
+    "plant": "Spikerock",
+    "chinese": "地刺王",
+    "source": "SpikeRock",
+    "bytes": 292841,
+    "sha256": "e61255d9d1bc62240fd297610ff04ffcb44eaaa3b0b949a23a78cd777cb131d1"
+  },
+  {
+    "file": "47_Spikerock/attack.gif",
+    "action": "anim_attack",
+    "frames": 30,
+    "size": [
+      182,
+      110
+    ],
+    "duration_ms": 1200,
+    "rate": 12.0,
+    "plant": "Spikerock",
+    "chinese": "地刺王",
+    "source": "SpikeRock",
+    "bytes": 306321,
+    "sha256": "ff09ae6eb423221a360befd1b90515b5d6b087cb309449f10f60431957712005"
+  },
+  {
+    "file": "47_Spikerock/idle_damaged1.gif",
+    "action": "anim_idle",
+    "frames": 30,
+    "size": [
+      182,
+      102
+    ],
+    "duration_ms": 1200,
+    "rate": 12.0,
+    "plant": "Spikerock",
+    "chinese": "地刺王",
+    "source": "SpikeRock",
+    "variant": "idle_damaged1",
+    "bytes": 284515,
+    "sha256": "42a6b9f1a75edf6d2f753f2a32d2de681723a0cde7185d035b9c945cfec443fd"
+  },
+  {
+    "file": "47_Spikerock/idle_damaged2.gif",
+    "action": "anim_idle",
+    "frames": 30,
+    "size": [
+      182,
+      102
+    ],
+    "duration_ms": 1200,
+    "rate": 12.0,
+    "plant": "Spikerock",
+    "chinese": "地刺王",
+    "source": "SpikeRock",
+    "variant": "idle_damaged2",
+    "bytes": 288987,
+    "sha256": "44cf12df21e4ba37234606f02ce5b5cc1e437bf796be8846cd43b10a785dc0fc"
+  },
+  {
+    "file": "48_CobCannon/unarmed_idle.gif",
+    "action": "anim_unarmed_idle",
+    "frames": 38,
+    "size": [
+      360,
+      214
+    ],
+    "duration_ms": 1520,
+    "rate": 12.0,
+    "plant": "CobCannon",
+    "chinese": "玉米加农炮",
+    "source": "CobCannon",
+    "bytes": 1027761,
+    "sha256": "edcf230150dc342fa7207e223411c4d8548d63ffe6b46c4f679e00de26d1a80a"
+  },
+  {
+    "file": "48_CobCannon/idle.gif",
+    "action": "anim_idle",
+    "frames": 38,
+    "size": [
+      360,
+      214
+    ],
+    "duration_ms": 1520,
+    "rate": 12.0,
+    "plant": "CobCannon",
+    "chinese": "玉米加农炮",
+    "source": "CobCannon",
+    "bytes": 1042599,
+    "sha256": "ad48ecc0bbef74ed8b911f1dd017fd8de3f8f52333448e1318f93fc95b46f9de"
+  },
+  {
+    "file": "48_CobCannon/shooting.gif",
+    "action": "anim_shooting",
+    "frames": 30,
+    "size": [
+      414,
+      604
+    ],
+    "duration_ms": 1200,
+    "rate": 35.0,
+    "plant": "CobCannon",
+    "chinese": "玉米加农炮",
+    "source": "CobCannon",
+    "bytes": 1099006,
+    "sha256": "5a892ca83c6307809f745353c0c9ddde095e170bfd8d13874ce8dd5f810722e5"
+  },
+  {
+    "file": "48_CobCannon/charge.gif",
+    "action": "anim_charge",
+    "frames": 30,
+    "size": [
+      354,
+      226
+    ],
+    "duration_ms": 1200,
+    "rate": 12.0,
+    "plant": "CobCannon",
+    "chinese": "玉米加农炮",
+    "source": "CobCannon",
+    "bytes": 821451,
+    "sha256": "aaace8b16298151276cd75f59eb933f37d67fa93a02687b3f6c23a05cc25de8d"
+  },
+  {
+    "file": "48_CobCannon/blink.gif",
+    "action": "anim_blink",
+    "frames": 24,
+    "size": [
+      360,
+      214
+    ],
+    "duration_ms": 960,
+    "rate": 15.0,
+    "plant": "CobCannon",
+    "chinese": "玉米加农炮",
+    "source": "CobCannon",
+    "bytes": 658220,
+    "sha256": "3aeaa648c557a0f79c3082f6701db484b8d37e8541d081f2fa1a21d3f03ae958"
+  },
+  {
+    "file": "49_Imitater/blink.gif",
+    "action": "anim_blink",
+    "frames": 24,
+    "size": [
+      130,
+      164
+    ],
+    "duration_ms": 960,
+    "rate": 15.0,
+    "plant": "Imitater",
+    "chinese": "模仿者",
+    "source": "Imitater",
+    "bytes": 201782,
+    "sha256": "1d93c745c9d1c3d45a0f695b109ba501fd8177da2094c17550c4c7819c577754"
+  },
+  {
+    "file": "49_Imitater/idle.gif",
+    "action": "anim_idle",
+    "frames": 45,
+    "size": [
+      138,
+      168
+    ],
+    "duration_ms": 1800,
+    "rate": 27.5,
+    "plant": "Imitater",
+    "chinese": "模仿者",
+    "source": "Imitater",
+    "bytes": 381586,
+    "sha256": "b1cc1586ef182176e87d4d4a8cb5c22e8d41524fcc026fd83133ff97b263773c"
+  },
+  {
+    "file": "49_Imitater/explode.gif",
+    "action": "anim_explode",
+    "frames": 28,
+    "size": [
+      120,
+      168
+    ],
+    "duration_ms": 1120,
+    "rate": 27.5,
+    "plant": "Imitater",
+    "chinese": "模仿者",
+    "source": "Imitater",
+    "bytes": 224016,
+    "sha256": "df12920ccbd56d088378416d31183539dbfd29d63d5d983f339faefabb21d391"
+  },
+  {
+    "file": "50_ZenGardenSprout/sprout.gif",
+    "action": "anim_sprout",
+    "frames": 17,
+    "size": [
+      52,
+      74
+    ],
+    "duration_ms": 760,
+    "rate": 12.0,
+    "plant": "ZenGardenSprout",
+    "chinese": "禅境花园幼苗",
+    "source": "ZenGarden_sprout",
+    "bytes": 19261,
+    "sha256": "697c0981aeef96b995c8cefd30a6f22b2ef18b97495e76f960da4c065b34e975"
+  },
+  {
+    "file": "50_ZenGardenSprout/flower.gif",
+    "action": "anim_flower",
+    "frames": 15,
+    "size": [
+      70,
+      88
+    ],
+    "duration_ms": 600,
+    "rate": 12.0,
+    "plant": "ZenGardenSprout",
+    "chinese": "禅境花园幼苗",
+    "source": "ZenGarden_sprout",
+    "bytes": 32456,
+    "sha256": "b49f92cff12f22d0cb6c4e824a17db2f86a57f61d2fe55c68d984cbed54ceef1"
+  },
+  {
+    "file": "50_ZenGardenSprout/idle.gif",
+    "action": "anim_idle",
+    "frames": 42,
+    "size": [
+      80,
+      86
+    ],
+    "duration_ms": 1680,
+    "rate": 12.0,
+    "plant": "ZenGardenSprout",
+    "chinese": "禅境花园幼苗",
+    "source": "ZenGarden_sprout",
+    "bytes": 102877,
+    "sha256": "5acc4888b8b89844e4a657b7b07d71073d4fda4180f10e35db668e934123e1b6"
+  },
+  {
+    "file": "50_ZenGardenSprout/idle_noflower.gif",
+    "action": "anim_idle_noflower",
+    "frames": 42,
+    "size": [
+      60,
+      64
+    ],
+    "duration_ms": 1680,
+    "rate": 12.0,
+    "plant": "ZenGardenSprout",
+    "chinese": "禅境花园幼苗",
+    "source": "ZenGarden_sprout",
+    "bytes": 62844,
+    "sha256": "4c912932cbaa305645bc5c4db504e5c02af7c2d5d949f8ac74a8d7806df486cb"
+  },
+  {
+    "file": "51_LoadingSprout/sprout.gif",
+    "action": "anim_sprout",
+    "frames": 34,
+    "size": [
+      70,
+      88
+    ],
+    "duration_ms": 1440,
+    "rate": 12.0,
+    "plant": "LoadingSprout",
+    "chinese": "加载界面幼苗",
+    "source": "LoadBar_sprout",
+    "bytes": 54355,
+    "sha256": "c1a81781bda25aa37f8880371efb07beead4826186b0392855b82abf695b123b"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow1.gif",
+    "action": "anim_grow1",
+    "frames": 15,
+    "sampled_frames": 15,
+    "size": [
+      34,
+      66
+    ],
+    "duration_ms": 600,
+    "bounds": [
+      382,
+      357,
+      416,
+      423
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 19056,
+    "sha256": "57cdf8f206c848228c98a524055e1c1ad257cd234ec3880c1744083ed8c62c56"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow2.gif",
+    "action": "anim_grow2",
+    "frames": 19,
+    "sampled_frames": 21,
+    "size": [
+      43,
+      116
+    ],
+    "duration_ms": 840,
+    "bounds": [
+      378,
+      306,
+      421,
+      422
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 32833,
+    "sha256": "605740034e59e4b4908fc6d6977f79f5b25dd92f44872921fcda59e322bc2d23"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow3.gif",
+    "action": "anim_grow3",
+    "frames": 13,
+    "sampled_frames": 13,
+    "size": [
+      84,
+      111
+    ],
+    "duration_ms": 520,
+    "bounds": [
+      337,
+      304,
+      421,
+      415
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 27869,
+    "sha256": "2d06d8770561cd537116768dd00d5fa7941f53e82b53bac89f704b13b3cc2a81"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow4.gif",
+    "action": "anim_grow4",
+    "frames": 13,
+    "sampled_frames": 13,
+    "size": [
+      109,
+      96
+    ],
+    "duration_ms": 520,
+    "bounds": [
+      351,
+      319,
+      460,
+      415
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 29513,
+    "sha256": "31b0066abf1135c3bf217435ec662dc34fb51a45d5f389e1a288c1a89ff8f167"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow5.gif",
+    "action": "anim_grow5",
+    "frames": 13,
+    "sampled_frames": 13,
+    "size": [
+      108,
+      114
+    ],
+    "duration_ms": 520,
+    "bounds": [
+      333,
+      301,
+      441,
+      415
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 41638,
+    "sha256": "e309be4d35bbee96478b68024ba4aee33600bb2619fcf4a7aafa66e833922a3d"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow6.gif",
+    "action": "anim_grow6",
+    "frames": 11,
+    "sampled_frames": 11,
+    "size": [
+      110,
+      105
+    ],
+    "duration_ms": 440,
+    "bounds": [
+      345,
+      310,
+      455,
+      415
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 42820,
+    "sha256": "be2ce4a0ce10e209665e4dd26b427345909038bca8fea9e7f94afe9525cfa01c"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow7.gif",
+    "action": "anim_grow7",
+    "frames": 18,
+    "sampled_frames": 19,
+    "size": [
+      124,
+      193
+    ],
+    "duration_ms": 760,
+    "bounds": [
+      328,
+      223,
+      452,
+      416
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 87709,
+    "sha256": "b86e8b9786bc8c4dba019d11ecb4e549adfefff604755b32aa25c10bd18f8617"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow8.gif",
+    "action": "anim_grow8",
+    "frames": 13,
+    "sampled_frames": 13,
+    "size": [
+      124,
+      181
+    ],
+    "duration_ms": 520,
+    "bounds": [
+      328,
+      234,
+      452,
+      415
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 78230,
+    "sha256": "3a3aa45eee4acb79a57eaf03268acff35d02d0f39035ddd54a6f495498710ca3"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow9.gif",
+    "action": "anim_grow9",
+    "frames": 13,
+    "sampled_frames": 13,
+    "size": [
+      131,
+      189
+    ],
+    "duration_ms": 520,
+    "bounds": [
+      329,
+      226,
+      460,
+      415
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 79852,
+    "sha256": "899d18ddbc2a95714432d09dfd19d725c12c543d55bb289b5ebdfcab41c2d48f"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow10.gif",
+    "action": "anim_grow10",
+    "frames": 13,
+    "sampled_frames": 13,
+    "size": [
+      131,
+      196
+    ],
+    "duration_ms": 520,
+    "bounds": [
+      329,
+      219,
+      460,
+      415
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 87265,
+    "sha256": "a410de5c5ac6419b405e9aeab3b67c4731620bb8b192219e383abc49d7b096b3"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow11.gif",
+    "action": "anim_grow11",
+    "frames": 13,
+    "sampled_frames": 13,
+    "size": [
+      124,
+      183
+    ],
+    "duration_ms": 520,
+    "bounds": [
+      328,
+      232,
+      452,
+      415
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 94026,
+    "sha256": "5ae2efdf85fa90c28c8fdfb1ad59eac8136b72a0c15b7be32cc839dcbefcecc4"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow12.gif",
+    "action": "anim_grow12",
+    "frames": 16,
+    "sampled_frames": 17,
+    "size": [
+      152,
+      275
+    ],
+    "duration_ms": 680,
+    "bounds": [
+      313,
+      144,
+      465,
+      419
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 143681,
+    "sha256": "006aa237fb3810ea492a96f0428f87c5f4978c39654d46b5d214a43342abc926"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow13.gif",
+    "action": "anim_grow13",
+    "frames": 11,
+    "sampled_frames": 11,
+    "size": [
+      180,
+      261
+    ],
+    "duration_ms": 440,
+    "bounds": [
+      285,
+      157,
+      465,
+      418
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 112254,
+    "sha256": "5c1452f808cd6da6663e6f53904a593b9ab8a78c5ea4a7ae3949a7faee0906ee"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow14.gif",
+    "action": "anim_grow14",
+    "frames": 11,
+    "sampled_frames": 11,
+    "size": [
+      162,
+      293
+    ],
+    "duration_ms": 440,
+    "bounds": [
+      303,
+      125,
+      465,
+      418
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 111136,
+    "sha256": "34576f939c355a4b26d83583189bf28450e4389287cdd9b78e27c310af76ea5d"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow15.gif",
+    "action": "anim_grow15",
+    "frames": 13,
+    "sampled_frames": 13,
+    "size": [
+      189,
+      281
+    ],
+    "duration_ms": 520,
+    "bounds": [
+      276,
+      137,
+      465,
+      418
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 144505,
+    "sha256": "e379c87224a8e1e889daa35f7df5627dfe7bc3d84934ecd6c070ce587aecd8a9"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow16.gif",
+    "action": "anim_grow16",
+    "frames": 13,
+    "sampled_frames": 13,
+    "size": [
+      174,
+      295
+    ],
+    "duration_ms": 520,
+    "bounds": [
+      291,
+      123,
+      465,
+      418
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 158956,
+    "sha256": "07ef6cfc1c4fd567e0a9d5e19aec25564ee11475010e2cd820508d6907c9ece0"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow17.gif",
+    "action": "anim_grow17",
+    "frames": 13,
+    "sampled_frames": 13,
+    "size": [
+      174,
+      307
+    ],
+    "duration_ms": 520,
+    "bounds": [
+      291,
+      111,
+      465,
+      418
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 167454,
+    "sha256": "db5fd5bbba07ff8c988ccdde12b48aecd15f8c36b54acb4c6bbf711f02c9eebb"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow18.gif",
+    "action": "anim_grow18",
+    "frames": 16,
+    "sampled_frames": 17,
+    "size": [
+      227,
+      418
+    ],
+    "duration_ms": 680,
+    "bounds": [
+      255,
+      14,
+      482,
+      432
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 242226,
+    "sha256": "24161c9b8d49ce54b35771bae7660d717560be0f4d7fe04480f327133bd9dbf9"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow19.gif",
+    "action": "anim_grow19",
+    "frames": 13,
+    "sampled_frames": 13,
+    "size": [
+      227,
+      403
+    ],
+    "duration_ms": 520,
+    "bounds": [
+      255,
+      29,
+      482,
+      432
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 225988,
+    "sha256": "5170c57f146a7ae56e2101e75d58d55e66df1b91df005b6ea7d9db9e1458685b"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow20.gif",
+    "action": "anim_grow20",
+    "frames": 13,
+    "sampled_frames": 13,
+    "size": [
+      227,
+      403
+    ],
+    "duration_ms": 520,
+    "bounds": [
+      255,
+      29,
+      482,
+      432
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 228114,
+    "sha256": "0421179467a9006f5a9255b0fd8905975fd0b692a1aa9164c759b9d2cf0f837e"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow21.gif",
+    "action": "anim_grow21",
+    "frames": 13,
+    "sampled_frames": 13,
+    "size": [
+      227,
+      403
+    ],
+    "duration_ms": 520,
+    "bounds": [
+      255,
+      29,
+      482,
+      432
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 235182,
+    "sha256": "4d4e74cd2120ee394f8a0c52560d2454cf2373e7eb7f1348bbe250c8eff87d1f"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow22.gif",
+    "action": "anim_grow22",
+    "frames": 11,
+    "sampled_frames": 11,
+    "size": [
+      227,
+      403
+    ],
+    "duration_ms": 440,
+    "bounds": [
+      255,
+      29,
+      482,
+      432
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 206836,
+    "sha256": "a5fac812bb855aa78da0a48762ddaa1aa1e9f99ede816e898ac6567ac44f57fd"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow23.gif",
+    "action": "anim_grow23",
+    "frames": 16,
+    "sampled_frames": 17,
+    "size": [
+      300,
+      483
+    ],
+    "duration_ms": 680,
+    "bounds": [
+      210,
+      -45,
+      510,
+      438
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 342354,
+    "sha256": "7200148faaa6aaf124f583910342b52368bfb186d8e9cd7e7ef591ce02021049"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow24.gif",
+    "action": "anim_grow24",
+    "frames": 13,
+    "sampled_frames": 13,
+    "size": [
+      299,
+      473
+    ],
+    "duration_ms": 520,
+    "bounds": [
+      210,
+      -35,
+      509,
+      438
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 322583,
+    "sha256": "1cd65ffcf3b3e511c54a3f557850fb139fb0e718143ab3940e997134c5065168"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow25.gif",
+    "action": "anim_grow25",
+    "frames": 13,
+    "sampled_frames": 13,
+    "size": [
+      299,
+      473
+    ],
+    "duration_ms": 520,
+    "bounds": [
+      210,
+      -35,
+      509,
+      438
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 325182,
+    "sha256": "c55a4fce4573814d2dfa3c93075c8e00696a613a514c0cfeba084f3c68512ed4"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow26.gif",
+    "action": "anim_grow26",
+    "frames": 13,
+    "sampled_frames": 13,
+    "size": [
+      303,
+      473
+    ],
+    "duration_ms": 520,
+    "bounds": [
+      206,
+      -35,
+      509,
+      438
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 327619,
+    "sha256": "75f54715e988427ee4f442256b7e91ecae6752e069096a6d9cbe3ff0b9527b8b"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow27.gif",
+    "action": "anim_grow27",
+    "frames": 13,
+    "sampled_frames": 13,
+    "size": [
+      299,
+      473
+    ],
+    "duration_ms": 520,
+    "bounds": [
+      210,
+      -35,
+      509,
+      438
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 326247,
+    "sha256": "0374b70cb8e32176d8953509afaaf7b51553c5306f83002e979c010f7ba1dd88"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow28.gif",
+    "action": "anim_grow28",
+    "frames": 13,
+    "sampled_frames": 13,
+    "size": [
+      299,
+      473
+    ],
+    "duration_ms": 520,
+    "bounds": [
+      210,
+      -35,
+      509,
+      438
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 327721,
+    "sha256": "f46b5b37145e28331ffebf42f4ad1e6dd7a97e96e8880b075ed41bd03724033a"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow29.gif",
+    "action": "anim_grow29",
+    "frames": 13,
+    "sampled_frames": 13,
+    "size": [
+      311,
+      473
+    ],
+    "duration_ms": 520,
+    "bounds": [
+      210,
+      -35,
+      521,
+      438
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 323792,
+    "sha256": "c2a30e37e4a047607aa28f3299d3a5fce0c85dc911e10f6e3b1443be342ddc3a"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow30.gif",
+    "action": "anim_grow30",
+    "frames": 13,
+    "sampled_frames": 13,
+    "size": [
+      299,
+      473
+    ],
+    "duration_ms": 520,
+    "bounds": [
+      210,
+      -35,
+      509,
+      438
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 343536,
+    "sha256": "ea4839136afb8692dd8bb131f5b997bfcef754b1c0270f1b2d156d31d05bf17e"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow31.gif",
+    "action": "anim_grow31",
+    "frames": 13,
+    "sampled_frames": 13,
+    "size": [
+      299,
+      473
+    ],
+    "duration_ms": 520,
+    "bounds": [
+      210,
+      -35,
+      509,
+      438
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 354157,
+    "sha256": "abc323ca0b33fc83b465fa133e77f5e8dd83a3886424abbe281f37bc284144a5"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow32.gif",
+    "action": "anim_grow32",
+    "frames": 11,
+    "sampled_frames": 11,
+    "size": [
+      299,
+      473
+    ],
+    "duration_ms": 440,
+    "bounds": [
+      210,
+      -35,
+      509,
+      438
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 302815,
+    "sha256": "f588c092c9f0fcb5a6113db2b4c80844f68dab143505e1fd4ddbe1fbb41ae0bc"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow33.gif",
+    "action": "anim_grow33",
+    "frames": 13,
+    "sampled_frames": 15,
+    "size": [
+      311,
+      473
+    ],
+    "duration_ms": 600,
+    "bounds": [
+      210,
+      -35,
+      521,
+      438
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 368784,
+    "sha256": "2199f35e017fa0a50943e295758957fc01221d250a0f6ba164133d42b7d69031"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow34.gif",
+    "action": "anim_grow34",
+    "frames": 13,
+    "sampled_frames": 13,
+    "size": [
+      300,
+      473
+    ],
+    "duration_ms": 520,
+    "bounds": [
+      209,
+      -35,
+      509,
+      438
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 372872,
+    "sha256": "95055747b26f7ce2df2c6661b21395ddf93f42508368637db83a56ed356dbb0b"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow35.gif",
+    "action": "anim_grow35",
+    "frames": 13,
+    "sampled_frames": 13,
+    "size": [
+      312,
+      473
+    ],
+    "duration_ms": 520,
+    "bounds": [
+      197,
+      -35,
+      509,
+      438
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 383493,
+    "sha256": "1bbbe5c848ccdb24be1777a6aefc7c6aff0b95c70123d6ad8bd787822a5986b3"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow36.gif",
+    "action": "anim_grow36",
+    "frames": 16,
+    "sampled_frames": 17,
+    "size": [
+      487,
+      559
+    ],
+    "duration_ms": 680,
+    "bounds": [
+      139,
+      -101,
+      626,
+      458
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 664390,
+    "sha256": "6c4f45888c225c8c4dd655c22b223a19263865cb911ee9eca910dbba560716c7"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow37.gif",
+    "action": "anim_grow37",
+    "frames": 7,
+    "sampled_frames": 7,
+    "size": [
+      519,
+      513
+    ],
+    "duration_ms": 280,
+    "bounds": [
+      138,
+      -55,
+      657,
+      458
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 428383,
+    "sha256": "e976c9d8cce5e9b7a3d31fc2171cd2cf168d77a6b39cb4b3830e8333afb0e5dd"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow38.gif",
+    "action": "anim_grow38",
+    "frames": 7,
+    "sampled_frames": 7,
+    "size": [
+      515,
+      513
+    ],
+    "duration_ms": 280,
+    "bounds": [
+      138,
+      -55,
+      653,
+      458
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 456384,
+    "sha256": "cff2a09abe89453c54d978d04fb049d5190c7371dd23c47b84dc912950297b1a"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow39.gif",
+    "action": "anim_grow39",
+    "frames": 7,
+    "sampled_frames": 7,
+    "size": [
+      543,
+      513
+    ],
+    "duration_ms": 280,
+    "bounds": [
+      110,
+      -55,
+      653,
+      458
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 509116,
+    "sha256": "cbc398c704a05c1b531c83b2a7ae50b4bc39b62e7571a14c8fda06de5bbc2259"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow40.gif",
+    "action": "anim_grow40",
+    "frames": 7,
+    "sampled_frames": 7,
+    "size": [
+      565,
+      513
+    ],
+    "duration_ms": 280,
+    "bounds": [
+      88,
+      -55,
+      653,
+      458
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 581167,
+    "sha256": "5d75c7bba6b0e2522a670f1a14906e7359bfcaf9e34162a85166bc82bb7b06e3"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow41.gif",
+    "action": "anim_grow41",
+    "frames": 7,
+    "sampled_frames": 7,
+    "size": [
+      561,
+      513
+    ],
+    "duration_ms": 280,
+    "bounds": [
+      92,
+      -55,
+      653,
+      458
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 695272,
+    "sha256": "3584d372ca248edf1882b98bce0faad3cf62e0a9764b9d3fe7c5ccf3e5bed48e"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow42.gif",
+    "action": "anim_grow42",
+    "frames": 16,
+    "sampled_frames": 17,
+    "size": [
+      784,
+      647
+    ],
+    "duration_ms": 680,
+    "bounds": [
+      -39,
+      -149,
+      745,
+      498
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 1802108,
+    "sha256": "90cdd6cb0ebf2b7cc09f27f8d893fa508989102b58ff998fa7369ca4d70a4efb"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow43.gif",
+    "action": "anim_grow43",
+    "frames": 7,
+    "sampled_frames": 7,
+    "size": [
+      787,
+      570
+    ],
+    "duration_ms": 280,
+    "bounds": [
+      -41,
+      -71,
+      746,
+      499
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 979819,
+    "sha256": "a353ac1cd85392ea6da3f9f622015aa3a689e20ced2ae0a862a7fb515bb4daed"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow44.gif",
+    "action": "anim_grow44",
+    "frames": 7,
+    "sampled_frames": 7,
+    "size": [
+      787,
+      570
+    ],
+    "duration_ms": 280,
+    "bounds": [
+      -41,
+      -71,
+      746,
+      499
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 1094650,
+    "sha256": "d65e500ac3809664c195506c0f651e44e88514dd8fdedf2dbe1fec1a17e4517d"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow45.gif",
+    "action": "anim_grow45",
+    "frames": 14,
+    "sampled_frames": 15,
+    "size": [
+      866,
+      654
+    ],
+    "duration_ms": 600,
+    "bounds": [
+      -41,
+      -141,
+      825,
+      513
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 2169254,
+    "sha256": "e57237985e4df2227f5fe2e501bbe2f6e2d6f27fd4c24b7707ba90c1b2c8c181"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow46.gif",
+    "action": "anim_grow46",
+    "frames": 7,
+    "sampled_frames": 7,
+    "size": [
+      860,
+      567
+    ],
+    "duration_ms": 280,
+    "bounds": [
+      -28,
+      -55,
+      832,
+      512
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 1070958,
+    "sha256": "efc833f7c5da8fbd4acde5b2218f0244255fb544f86e2dd4632d1c46445c47bb"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow47.gif",
+    "action": "anim_grow47",
+    "frames": 7,
+    "sampled_frames": 7,
+    "size": [
+      860,
+      567
+    ],
+    "duration_ms": 280,
+    "bounds": [
+      -28,
+      -55,
+      832,
+      512
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 1089377,
+    "sha256": "d52e757ae2f543841a61226da4e9749948c6427ebdf7a4c9aff433e7fa59266d"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow48.gif",
+    "action": "anim_grow48",
+    "frames": 7,
+    "sampled_frames": 7,
+    "size": [
+      860,
+      580
+    ],
+    "duration_ms": 280,
+    "bounds": [
+      -28,
+      -68,
+      832,
+      512
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 1110971,
+    "sha256": "e681bbfe2cf4eb296ffcfb66eec943dab1b030ec46b3fad5d016cf64adce5778"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow49.gif",
+    "action": "anim_grow49",
+    "frames": 5,
+    "sampled_frames": 5,
+    "size": [
+      860,
+      576
+    ],
+    "duration_ms": 200,
+    "bounds": [
+      -28,
+      -64,
+      832,
+      512
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 797727,
+    "sha256": "af6a5f9396fe531f0b8413f83a97a42220462588e7432e40490149653be307cb"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow50.gif",
+    "action": "anim_grow50",
+    "frames": 19,
+    "sampled_frames": 19,
+    "size": [
+      860,
+      702
+    ],
+    "duration_ms": 760,
+    "bounds": [
+      -28,
+      -190,
+      832,
+      512
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 3100561,
+    "sha256": "a92ca32de644d6b0f853233bf3dcf668b8e10e90b71d8198d30d57670e893ccb"
+  },
+  {
+    "file": "52_TreeOfWisdom/grow51.gif",
+    "action": "anim_grow51",
+    "frames": 17,
+    "sampled_frames": 17,
+    "size": [
+      532,
+      601
+    ],
+    "duration_ms": 680,
+    "bounds": [
+      155,
+      -92,
+      687,
+      509
+    ],
+    "rate": 12.0,
+    "plant": "TreeOfWisdom",
+    "chinese": "智慧树",
+    "source": "TreeOfWisdom",
+    "bytes": 2069942,
+    "sha256": "3c9fb04d1f898eb7170d2cdaeee4a534f856f994d49a661ce905073e522e853a"
+  }
+]

@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>僵尸动画 GIF 图鉴</title>
+<style>
+* { box-sizing: border-box; }
+:root {
+  color-scheme: light;
+  --ink: #173c28;
+  --muted: #506653;
+  --line: #cad8c7;
+  --paper: #f3f1e8;
+}
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 16px/1.55 system-ui, "Microsoft YaHei", sans-serif;
+}
+.wrap { width: min(1280px, 90%); margin-inline: auto; }
+header { background: #e3eadc; border-bottom: 1px solid var(--line); }
+header .wrap { padding-block: 32px 23px; }
+h1 { font-size: clamp(27px, 4vw, 38px); line-height: 1.2; margin: 0 0 10px; }
+p { margin: 0; }
+.summary, #count, .english, .note, small { color: var(--muted); }
+.tools { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-top: 18px; }
+input, button { color: inherit; font: inherit; border: 1px solid #9eb69e; border-radius: 9px; }
+input { min-width: 0; flex: 1 1 280px; max-width: 460px; padding: 9px 13px; background: white; }
+.filters { display: flex; gap: 6px; flex-wrap: wrap; }
+button { background: #f8faf6; padding: 8px 13px; cursor: pointer; }
+button[aria-pressed="true"] { color: white; background: #275c40; border-color: #275c40; }
+#count { margin-top: 9px; font-size: 14px; min-height: 1.55em; }
+main { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 510px), 1fr));
+       align-items: start; gap: 19px; padding-block: 24px 45px; }
+article { background: #fff; border: 1px solid #dbe2d7; border-radius: 14px; padding: 16px; }
+h2 { font-size: 20px; margin: 0; line-height: 1.35; }
+.english { font-size: 13px; margin-top: 3px; }
+.actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 15px; margin-top: 15px; }
+.actions.single { grid-template-columns: 1fr; }
+.actions [data-kind="special"] { grid-column: 1 / -1; }
+h3 { font-size: 14px; margin: 0 0 8px; }
+.clips { display: grid; gap: 7px; }
+a {
+  display: block; min-width: 0; padding: 6px; border: 1px solid #e2e8df;
+  border-radius: 9px; color: inherit; text-decoration: none;
+}
+a:hover { background: #eaf2e3; border-color: #a5bda4; }
+a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid #275c40; outline-offset: 2px; }
+.pic {
+  height: 131px; padding: 4px; display: grid; place-items: center; border-radius: 5px;
+  background: repeating-conic-gradient(#eef0ea 0% 25%, #fafbf8 0% 50%) 50% / 16px 16px;
+}
+img { display: block; width: 100%; height: 123px; object-fit: contain; }
+.label { display: block; margin: 4px 2px 0; font-size: 14px; font-weight: 600; }
+small { display: block; font-size: 12px; margin-inline: 2px; }
+.note { font-size: 14px; padding: 9px 10px; background: #f4f6f1; border-radius: 7px; }
+.empty { grid-column: 1/-1; }
+[hidden] { display: none !important; }
+@media (max-width: 480px) {
+  .wrap { width: 94%; }
+  article { padding: 11px; }
+  .actions { gap: 9px; }
+  .pic { height: 109px; }
+  img { height: 101px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>僵尸动画 GIF 图鉴</h1>
+    <p class="summary">《植物大战僵尸》原版 PC 1.0.0.1051 · 33 种僵尸 · 96 个透明 GIF。点击预览打开原图，可右键另存。</p>
+    <div class="tools">
+      <input id="query" type="search" aria-label="搜索僵尸或动作" placeholder="搜索僵尸或动作，如 路障、游泳、eat">
+      <div class="filters" role="group" aria-label="筛选动作">
+        <button type="button" data-filter="all" aria-pressed="true">全部</button>
+        <button type="button" data-filter="move" aria-pressed="false">行进</button>
+        <button type="button" data-filter="eat" aria-pressed="false">啃食</button>
+        <button type="button" data-filter="special" aria-pressed="false">特殊动作</button>
+      </div>
+    </div>
+    <p id="count" aria-live="polite"></p>
+  </div>
+</header>
+<main class="wrap">
+<p id="empty" class="empty" hidden>没有匹配的僵尸或动作。</p>
+<article data-name="普通僵尸 zombie 普僵"><h2>普通僵尸</h2><p class="english" lang="en">Zombie</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/01_Zombie/walk.gif" target="_blank" rel="noopener" data-terms="行进 步行 walk walk" aria-label="打开 普通僵尸 · 步行 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/01_Zombie/walk.gif" alt=""></span><span class="label">步行</span><small>204 × 290 · 87 帧</small></a>
+<a href="zombie_gifs/01_Zombie/walk2.gif" target="_blank" rel="noopener" data-terms="行进 步行 · 另一种步态 walk2 walk2" aria-label="打开 普通僵尸 · 步行 · 另一种步态 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/01_Zombie/walk2.gif" alt=""></span><span class="label">步行 · 另一种步态</span><small>200 × 268 · 87 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/01_Zombie/eat.gif" target="_blank" rel="noopener" data-terms="啃食 啃食 eat eat" aria-label="打开 普通僵尸 · 啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/01_Zombie/eat.gif" alt=""></span><span class="label">啃食</span><small>198 × 256 · 28 帧</small></a></div></section></div></article>
+<article data-name="旗帜僵尸 flag zombie 旗子 旗手 摇旗"><h2>旗帜僵尸</h2><p class="english" lang="en">Flag Zombie</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/02_Flag_Zombie/walk2.gif" target="_blank" rel="noopener" data-terms="行进 举旗行进 walk2 walk2" aria-label="打开 旗帜僵尸 · 举旗行进 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/02_Flag_Zombie/walk2.gif" alt=""></span><span class="label">举旗行进</span><small>312 × 412 · 58 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/02_Flag_Zombie/eat.gif" target="_blank" rel="noopener" data-terms="啃食 啃食 eat eat" aria-label="打开 旗帜僵尸 · 啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/02_Flag_Zombie/eat.gif" alt=""></span><span class="label">啃食</span><small>296 × 406 · 28 帧</small></a></div></section></div></article>
+<article data-name="路障僵尸 conehead zombie 路障帽"><h2>路障僵尸</h2><p class="english" lang="en">Conehead Zombie</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/03_Conehead_Zombie/walk.gif" target="_blank" rel="noopener" data-terms="行进 步行 walk walk" aria-label="打开 路障僵尸 · 步行 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/03_Conehead_Zombie/walk.gif" alt=""></span><span class="label">步行</span><small>202 × 326 · 87 帧</small></a>
+<a href="zombie_gifs/03_Conehead_Zombie/walk2.gif" target="_blank" rel="noopener" data-terms="行进 步行 · 另一种步态 walk2 walk2" aria-label="打开 路障僵尸 · 步行 · 另一种步态 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/03_Conehead_Zombie/walk2.gif" alt=""></span><span class="label">步行 · 另一种步态</span><small>192 × 316 · 87 帧</small></a>
+<a href="zombie_gifs/03_Conehead_Zombie/swim.gif" target="_blank" rel="noopener" data-terms="行进 泳池行进 swim swim" aria-label="打开 路障僵尸 · 泳池行进 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/03_Conehead_Zombie/swim.gif" alt=""></span><span class="label">泳池行进</span><small>202 × 302 · 87 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/03_Conehead_Zombie/eat_pool.gif" target="_blank" rel="noopener" data-terms="啃食 泳池啃食 eat eat_pool" aria-label="打开 路障僵尸 · 泳池啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/03_Conehead_Zombie/eat_pool.gif" alt=""></span><span class="label">泳池啃食</span><small>198 × 306 · 28 帧</small></a>
+<a href="zombie_gifs/03_Conehead_Zombie/eat.gif" target="_blank" rel="noopener" data-terms="啃食 啃食 eat eat" aria-label="打开 路障僵尸 · 啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/03_Conehead_Zombie/eat.gif" alt=""></span><span class="label">啃食</span><small>198 × 306 · 28 帧</small></a></div></section></div></article>
+<article data-name="撑杆僵尸 pole vaulting zombie "><h2>撑杆僵尸</h2><p class="english" lang="en">Pole Vaulting Zombie</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/04_Pole_Vaulting_Zombie/run.gif" target="_blank" rel="noopener" data-terms="行进 持杆跑步 run run" aria-label="打开 撑杆僵尸 · 持杆跑步 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/04_Pole_Vaulting_Zombie/run.gif" alt=""></span><span class="label">持杆跑步</span><small>498 × 330 · 24 帧</small></a>
+<a href="zombie_gifs/04_Pole_Vaulting_Zombie/walk.gif" target="_blank" rel="noopener" data-terms="行进 弃杆步行 walk walk" aria-label="打开 撑杆僵尸 · 弃杆步行 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/04_Pole_Vaulting_Zombie/walk.gif" alt=""></span><span class="label">弃杆步行</span><small>222 × 336 · 118 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/04_Pole_Vaulting_Zombie/eat.gif" target="_blank" rel="noopener" data-terms="啃食 啃食 eat eat" aria-label="打开 撑杆僵尸 · 啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/04_Pole_Vaulting_Zombie/eat.gif" alt=""></span><span class="label">啃食</span><small>218 × 306 · 34 帧</small></a></div></section></div></article>
+<article data-name="铁桶僵尸 buckethead zombie 桶僵"><h2>铁桶僵尸</h2><p class="english" lang="en">Buckethead Zombie</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/05_Buckethead_Zombie/walk.gif" target="_blank" rel="noopener" data-terms="行进 步行 walk walk" aria-label="打开 铁桶僵尸 · 步行 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/05_Buckethead_Zombie/walk.gif" alt=""></span><span class="label">步行</span><small>212 × 312 · 87 帧</small></a>
+<a href="zombie_gifs/05_Buckethead_Zombie/walk2.gif" target="_blank" rel="noopener" data-terms="行进 步行 · 另一种步态 walk2 walk2" aria-label="打开 铁桶僵尸 · 步行 · 另一种步态 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/05_Buckethead_Zombie/walk2.gif" alt=""></span><span class="label">步行 · 另一种步态</span><small>204 × 294 · 87 帧</small></a>
+<a href="zombie_gifs/05_Buckethead_Zombie/swim.gif" target="_blank" rel="noopener" data-terms="行进 泳池行进 swim swim" aria-label="打开 铁桶僵尸 · 泳池行进 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/05_Buckethead_Zombie/swim.gif" alt=""></span><span class="label">泳池行进</span><small>202 × 280 · 87 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/05_Buckethead_Zombie/eat_pool.gif" target="_blank" rel="noopener" data-terms="啃食 泳池啃食 eat eat_pool" aria-label="打开 铁桶僵尸 · 泳池啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/05_Buckethead_Zombie/eat_pool.gif" alt=""></span><span class="label">泳池啃食</span><small>198 × 290 · 28 帧</small></a>
+<a href="zombie_gifs/05_Buckethead_Zombie/eat.gif" target="_blank" rel="noopener" data-terms="啃食 啃食 eat eat" aria-label="打开 铁桶僵尸 · 啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/05_Buckethead_Zombie/eat.gif" alt=""></span><span class="label">啃食</span><small>198 × 290 · 28 帧</small></a></div></section></div></article>
+<article data-name="读报僵尸 newspaper zombie 报纸僵尸 二爷"><h2>读报僵尸</h2><p class="english" lang="en">Newspaper Zombie</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/06_Newspaper_Zombie/walk.gif" target="_blank" rel="noopener" data-terms="行进 持报纸行进 walk walk" aria-label="打开 读报僵尸 · 持报纸行进 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/06_Newspaper_Zombie/walk.gif" alt=""></span><span class="label">持报纸行进</span><small>240 × 308 · 101 帧</small></a>
+<a href="zombie_gifs/06_Newspaper_Zombie/walk_nopaper.gif" target="_blank" rel="noopener" data-terms="行进 失去报纸后快走 walk_nopaper walk_nopaper" aria-label="打开 读报僵尸 · 失去报纸后快走 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/06_Newspaper_Zombie/walk_nopaper.gif" alt=""></span><span class="label">失去报纸后快走</span><small>266 × 336 · 34 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/06_Newspaper_Zombie/eat.gif" target="_blank" rel="noopener" data-terms="啃食 持报纸啃食 eat eat" aria-label="打开 读报僵尸 · 持报纸啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/06_Newspaper_Zombie/eat.gif" alt=""></span><span class="label">持报纸啃食</span><small>230 × 314 · 16 帧</small></a>
+<a href="zombie_gifs/06_Newspaper_Zombie/eat_nopaper.gif" target="_blank" rel="noopener" data-terms="啃食 失去报纸后啃食 eat_nopaper eat_nopaper" aria-label="打开 读报僵尸 · 失去报纸后啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/06_Newspaper_Zombie/eat_nopaper.gif" alt=""></span><span class="label">失去报纸后啃食</span><small>250 × 340 · 16 帧</small></a></div></section></div></article>
+<article data-name="铁栅门僵尸 screen door zombie 铁门僵尸 纱窗门僵尸"><h2>铁栅门僵尸</h2><p class="english" lang="en">Screen Door Zombie</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/07_Screen_Door_Zombie/walk.gif" target="_blank" rel="noopener" data-terms="行进 步行 walk walk" aria-label="打开 铁栅门僵尸 · 步行 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/07_Screen_Door_Zombie/walk.gif" alt=""></span><span class="label">步行</span><small>236 × 310 · 87 帧</small></a>
+<a href="zombie_gifs/07_Screen_Door_Zombie/walk2.gif" target="_blank" rel="noopener" data-terms="行进 步行 · 另一种步态 walk2 walk2" aria-label="打开 铁栅门僵尸 · 步行 · 另一种步态 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/07_Screen_Door_Zombie/walk2.gif" alt=""></span><span class="label">步行 · 另一种步态</span><small>212 × 282 · 87 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/07_Screen_Door_Zombie/eat.gif" target="_blank" rel="noopener" data-terms="啃食 啃食 eat eat" aria-label="打开 铁栅门僵尸 · 啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/07_Screen_Door_Zombie/eat.gif" alt=""></span><span class="label">啃食</span><small>202 × 296 · 28 帧</small></a></div></section></div></article>
+<article data-name="橄榄球僵尸 football zombie "><h2>橄榄球僵尸</h2><p class="english" lang="en">Football Zombie</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/08_Football_Zombie/walk.gif" target="_blank" rel="noopener" data-terms="行进 跑步 walk walk" aria-label="打开 橄榄球僵尸 · 跑步 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/08_Football_Zombie/walk.gif" alt=""></span><span class="label">跑步</span><small>344 × 360 · 24 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/08_Football_Zombie/eat.gif" target="_blank" rel="noopener" data-terms="啃食 啃食 eat eat" aria-label="打开 橄榄球僵尸 · 啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/08_Football_Zombie/eat.gif" alt=""></span><span class="label">啃食</span><small>280 × 300 · 25 帧</small></a></div></section></div></article>
+<article data-name="舞王僵尸 dancing zombie 跳舞僵尸 mj 迈克尔杰克逊"><h2>舞王僵尸</h2><p class="english" lang="en">Dancing Zombie</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/09_Dancing_Zombie/moonwalk.gif" target="_blank" rel="noopener" data-terms="行进 太空步入场 moonwalk moonwalk" aria-label="打开 舞王僵尸 · 太空步入场 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/09_Dancing_Zombie/moonwalk.gif" alt=""></span><span class="label">太空步入场</span><small>210 × 302 · 28 帧</small></a>
+<a href="zombie_gifs/09_Dancing_Zombie/walk.gif" target="_blank" rel="noopener" data-terms="行进 舞步行进 walk walk" aria-label="打开 舞王僵尸 · 舞步行进 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/09_Dancing_Zombie/walk.gif" alt=""></span><span class="label">舞步行进</span><small>184 × 312 · 29 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/09_Dancing_Zombie/eat.gif" target="_blank" rel="noopener" data-terms="啃食 啃食 eat eat" aria-label="打开 舞王僵尸 · 啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/09_Dancing_Zombie/eat.gif" alt=""></span><span class="label">啃食</span><small>216 × 316 · 23 帧</small></a></div></section></div></article>
+<article data-name="伴舞僵尸 backup dancer "><h2>伴舞僵尸</h2><p class="english" lang="en">Backup Dancer</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/10_Backup_Dancer/walk.gif" target="_blank" rel="noopener" data-terms="行进 舞步行进 walk walk" aria-label="打开 伴舞僵尸 · 舞步行进 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/10_Backup_Dancer/walk.gif" alt=""></span><span class="label">舞步行进</span><small>204 × 332 · 33 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/10_Backup_Dancer/eat.gif" target="_blank" rel="noopener" data-terms="啃食 啃食 eat eat" aria-label="打开 伴舞僵尸 · 啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/10_Backup_Dancer/eat.gif" alt=""></span><span class="label">啃食</span><small>230 × 342 · 23 帧</small></a></div></section></div></article>
+<article data-name="鸭子救生圈僵尸 ducky tube zombie 鸭子僵尸 游泳圈"><h2>鸭子救生圈僵尸</h2><p class="english" lang="en">Ducky Tube Zombie</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/11_Ducky_Tube_Zombie/swim.gif" target="_blank" rel="noopener" data-terms="行进 泳池行进 swim swim" aria-label="打开 鸭子救生圈僵尸 · 泳池行进 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/11_Ducky_Tube_Zombie/swim.gif" alt=""></span><span class="label">泳池行进</span><small>202 × 258 · 87 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/11_Ducky_Tube_Zombie/eat.gif" target="_blank" rel="noopener" data-terms="啃食 泳池啃食 eat eat" aria-label="打开 鸭子救生圈僵尸 · 泳池啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/11_Ducky_Tube_Zombie/eat.gif" alt=""></span><span class="label">泳池啃食</span><small>198 × 256 · 28 帧</small></a></div></section></div></article>
+<article data-name="潜水僵尸 snorkel zombie 浮潜 zombiquarium"><h2>潜水僵尸</h2><p class="english" lang="en">Snorkel Zombie</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/12_Snorkel_Zombie/walk.gif" target="_blank" rel="noopener" data-terms="行进 陆地步行 walk walk" aria-label="打开 潜水僵尸 · 陆地步行 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/12_Snorkel_Zombie/walk.gif" alt=""></span><span class="label">陆地步行</span><small>246 × 356 · 47 帧</small></a>
+<a href="zombie_gifs/12_Snorkel_Zombie/swim.gif" target="_blank" rel="noopener" data-terms="行进 潜水行进 swim swim" aria-label="打开 潜水僵尸 · 潜水行进 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/12_Snorkel_Zombie/swim.gif" alt=""></span><span class="label">潜水行进</span><small>124 × 134 · 14 帧</small></a>
+<a href="zombie_gifs/12_Snorkel_Zombie/aquarium_swim.gif" target="_blank" rel="noopener" data-terms="行进 僵尸水族馆 · 游泳 aquarium_swim aquarium_swim" aria-label="打开 潜水僵尸 · 僵尸水族馆 · 游泳 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/12_Snorkel_Zombie/aquarium_swim.gif" alt=""></span><span class="label">僵尸水族馆 · 游泳</span><small>294 × 266 · 78 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/12_Snorkel_Zombie/eat.gif" target="_blank" rel="noopener" data-terms="啃食 浮出水面啃食 eat eat" aria-label="打开 潜水僵尸 · 浮出水面啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/12_Snorkel_Zombie/eat.gif" alt=""></span><span class="label">浮出水面啃食</span><small>196 × 228 · 30 帧</small></a>
+<a href="zombie_gifs/12_Snorkel_Zombie/aquarium_bite.gif" target="_blank" rel="noopener" data-terms="啃食 僵尸水族馆 · 吃脑子 aquarium_bite aquarium_bite" aria-label="打开 潜水僵尸 · 僵尸水族馆 · 吃脑子 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/12_Snorkel_Zombie/aquarium_bite.gif" alt=""></span><span class="label">僵尸水族馆 · 吃脑子</span><small>312 × 256 · 15 帧</small></a></div></section></div></article>
+<article data-name="冰车僵尸 zamboni 雪橇车 制冰车"><h2>冰车僵尸</h2><p class="english" lang="en">Zamboni</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/13_Zamboni/drive.gif" target="_blank" rel="noopener" data-terms="行进 驾驶冰车 drive drive" aria-label="打开 冰车僵尸 · 驾驶冰车 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/13_Zamboni/drive.gif" alt=""></span><span class="label">驾驶冰车</span><small>362 × 354 · 25 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><p class="note">游戏中无啃食动画。冰车碾压植物。</p></div></section></div></article>
+<article data-name="雪橇僵尸小队 zombie bobsled team 雪橇队"><h2>雪橇僵尸小队</h2><p class="english" lang="en">Zombie Bobsled Team</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/14_Zombie_Bobsled_Team/sled.gif" target="_blank" rel="noopener" data-terms="行进 四人乘雪橇滑行 push sled" aria-label="打开 雪橇僵尸小队 · 四人乘雪橇滑行 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/14_Zombie_Bobsled_Team/sled.gif" alt=""></span><span class="label">四人乘雪橇滑行</span><small>672 × 298 · 20 帧</small></a>
+<a href="zombie_gifs/14_Zombie_Bobsled_Team/walk.gif" target="_blank" rel="noopener" data-terms="行进 下车步行 walk walk" aria-label="打开 雪橇僵尸小队 · 下车步行 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/14_Zombie_Bobsled_Team/walk.gif" alt=""></span><span class="label">下车步行</span><small>214 × 302 · 106 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/14_Zombie_Bobsled_Team/eat.gif" target="_blank" rel="noopener" data-terms="啃食 下车后啃食 eat eat" aria-label="打开 雪橇僵尸小队 · 下车后啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/14_Zombie_Bobsled_Team/eat.gif" alt=""></span><span class="label">下车后啃食</span><small>192 × 300 · 29 帧</small></a></div></section></div></article>
+<article data-name="海豚骑士僵尸 dolphin rider zombie "><h2>海豚骑士僵尸</h2><p class="english" lang="en">Dolphin Rider Zombie</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/15_Dolphin_Rider_Zombie/walkdolphin.gif" target="_blank" rel="noopener" data-terms="行进 抱海豚行进 walkdolphin walkdolphin" aria-label="打开 海豚骑士僵尸 · 抱海豚行进 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/15_Dolphin_Rider_Zombie/walkdolphin.gif" alt=""></span><span class="label">抱海豚行进</span><small>248 × 288 · 36 帧</small></a>
+<a href="zombie_gifs/15_Dolphin_Rider_Zombie/ride.gif" target="_blank" rel="noopener" data-terms="行进 骑海豚行进 ride ride" aria-label="打开 海豚骑士僵尸 · 骑海豚行进 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/15_Dolphin_Rider_Zombie/ride.gif" alt=""></span><span class="label">骑海豚行进</span><small>224 × 208 · 10 帧</small></a>
+<a href="zombie_gifs/15_Dolphin_Rider_Zombie/swim.gif" target="_blank" rel="noopener" data-terms="行进 离开海豚后游泳 swim swim" aria-label="打开 海豚骑士僵尸 · 离开海豚后游泳 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/15_Dolphin_Rider_Zombie/swim.gif" alt=""></span><span class="label">离开海豚后游泳</span><small>190 × 208 · 107 帧</small></a>
+<a href="zombie_gifs/15_Dolphin_Rider_Zombie/walk.gif" target="_blank" rel="noopener" data-terms="行进 离开泳池后步行 walk walk" aria-label="打开 海豚骑士僵尸 · 离开泳池后步行 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/15_Dolphin_Rider_Zombie/walk.gif" alt=""></span><span class="label">离开泳池后步行</span><small>204 × 288 · 36 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/15_Dolphin_Rider_Zombie/eat.gif" target="_blank" rel="noopener" data-terms="啃食 离开海豚后啃食 eat eat" aria-label="打开 海豚骑士僵尸 · 离开海豚后啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/15_Dolphin_Rider_Zombie/eat.gif" alt=""></span><span class="label">离开海豚后啃食</span><small>186 × 206 · 29 帧</small></a></div></section></div></article>
+<article data-name="玩偶匣僵尸 jack-in-the-box zombie 小丑僵尸 玩偶盒僵尸"><h2>玩偶匣僵尸</h2><p class="english" lang="en">Jack-in-the-Box Zombie</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/16_Jack-in-the-Box_Zombie/walk.gif" target="_blank" rel="noopener" data-terms="行进 持玩偶匣跑步 walk walk" aria-label="打开 玩偶匣僵尸 · 持玩偶匣跑步 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/16_Jack-in-the-Box_Zombie/walk.gif" alt=""></span><span class="label">持玩偶匣跑步</span><small>230 × 308 · 16 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/16_Jack-in-the-Box_Zombie/eat.gif" target="_blank" rel="noopener" data-terms="啃食 啃食 eat eat" aria-label="打开 玩偶匣僵尸 · 啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/16_Jack-in-the-Box_Zombie/eat.gif" alt=""></span><span class="label">啃食</span><small>234 × 316 · 18 帧</small></a></div></section>
+<section data-kind="special"><h3>特殊动作</h3><div class="clips"><a href="zombie_gifs/16_Jack-in-the-Box_Zombie/explode.gif" target="_blank" rel="noopener" data-terms="特殊动作 开盒 爆炸 自爆 pop explode jackbox" aria-label="打开 玩偶匣僵尸 · 开盒与爆炸 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/16_Jack-in-the-Box_Zombie/explode.gif" alt=""></span><span class="label">开盒与爆炸</span><small>704 × 646 · 34 帧</small></a></div></section></div></article>
+<article data-name="气球僵尸 balloon zombie "><h2>气球僵尸</h2><p class="english" lang="en">Balloon Zombie</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/17_Balloon_Zombie/fly.gif" target="_blank" rel="noopener" data-terms="行进 气球飞行 idle fly" aria-label="打开 气球僵尸 · 气球飞行 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/17_Balloon_Zombie/fly.gif" alt=""></span><span class="label">气球飞行</span><small>196 × 294 · 25 帧</small></a>
+<a href="zombie_gifs/17_Balloon_Zombie/walk.gif" target="_blank" rel="noopener" data-terms="行进 落地步行 walk walk" aria-label="打开 气球僵尸 · 落地步行 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/17_Balloon_Zombie/walk.gif" alt=""></span><span class="label">落地步行</span><small>194 × 276 · 87 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/17_Balloon_Zombie/eat.gif" target="_blank" rel="noopener" data-terms="啃食 落地后啃食 eat eat" aria-label="打开 气球僵尸 · 落地后啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/17_Balloon_Zombie/eat.gif" alt=""></span><span class="label">落地后啃食</span><small>188 × 258 · 30 帧</small></a></div></section></div></article>
+<article data-name="矿工僵尸 digger zombie "><h2>矿工僵尸</h2><p class="english" lang="en">Digger Zombie</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/18_Digger_Zombie/dig.gif" target="_blank" rel="noopener" data-terms="行进 地底掘进 dig dig" aria-label="打开 矿工僵尸 · 地底掘进 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/18_Digger_Zombie/dig.gif" alt=""></span><span class="label">地底掘进</span><small>186 × 138 · 37 帧</small></a>
+<a href="zombie_gifs/18_Digger_Zombie/walk.gif" target="_blank" rel="noopener" data-terms="行进 持镐向右行进 walk walk" aria-label="打开 矿工僵尸 · 持镐向右行进 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/18_Digger_Zombie/walk.gif" alt=""></span><span class="label">持镐向右行进</span><small>268 × 328 · 313 帧</small></a>
+<a href="zombie_gifs/18_Digger_Zombie/walk_noaxe.gif" target="_blank" rel="noopener" data-terms="行进 失去镐后向左行进 walk walk_noaxe" aria-label="打开 矿工僵尸 · 失去镐后向左行进 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/18_Digger_Zombie/walk_noaxe.gif" alt=""></span><span class="label">失去镐后向左行进</span><small>268 × 330 · 126 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/18_Digger_Zombie/eat.gif" target="_blank" rel="noopener" data-terms="啃食 持镐向右啃食 eat eat" aria-label="打开 矿工僵尸 · 持镐向右啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/18_Digger_Zombie/eat.gif" alt=""></span><span class="label">持镐向右啃食</span><small>274 × 326 · 40 帧</small></a>
+<a href="zombie_gifs/18_Digger_Zombie/eat_noaxe.gif" target="_blank" rel="noopener" data-terms="啃食 失去镐后向左啃食 eat eat_noaxe" aria-label="打开 矿工僵尸 · 失去镐后向左啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/18_Digger_Zombie/eat_noaxe.gif" alt=""></span><span class="label">失去镐后向左啃食</span><small>274 × 326 · 40 帧</small></a></div></section>
+<section data-kind="special"><h3>特殊动作</h3><div class="clips"><a href="zombie_gifs/18_Digger_Zombie/emerge.gif" target="_blank" rel="noopener" data-terms="特殊动作 出土 钻出 地面 emerge rise digger" aria-label="打开 矿工僵尸 · 出土与落地 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/18_Digger_Zombie/emerge.gif" alt=""></span><span class="label">出土与落地</span><small>320 × 357 · 55 帧</small></a></div></section></div></article>
+<article data-name="跳跳僵尸 pogo zombie "><h2>跳跳僵尸</h2><p class="english" lang="en">Pogo Zombie</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/19_Pogo_Zombie/pogo.gif" target="_blank" rel="noopener" data-terms="行进 踩跳杆弹跳 pogo pogo" aria-label="打开 跳跳僵尸 · 踩跳杆弹跳 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/19_Pogo_Zombie/pogo.gif" alt=""></span><span class="label">踩跳杆弹跳</span><small>164 × 374 · 20 帧</small></a>
+<a href="zombie_gifs/19_Pogo_Zombie/walk.gif" target="_blank" rel="noopener" data-terms="行进 失去跳杆后步行 walk walk" aria-label="打开 跳跳僵尸 · 失去跳杆后步行 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/19_Pogo_Zombie/walk.gif" alt=""></span><span class="label">失去跳杆后步行</span><small>200 × 290 · 58 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/19_Pogo_Zombie/eat.gif" target="_blank" rel="noopener" data-terms="啃食 失去跳杆后啃食 eat eat" aria-label="打开 跳跳僵尸 · 失去跳杆后啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/19_Pogo_Zombie/eat.gif" alt=""></span><span class="label">失去跳杆后啃食</span><small>194 × 256 · 28 帧</small></a></div></section></div></article>
+<article data-name="雪人僵尸 zombie yeti 雪怪"><h2>雪人僵尸</h2><p class="english" lang="en">Zombie Yeti</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/20_Zombie_Yeti/walk.gif" target="_blank" rel="noopener" data-terms="行进 步行 walk walk" aria-label="打开 雪人僵尸 · 步行 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/20_Zombie_Yeti/walk.gif" alt=""></span><span class="label">步行</span><small>328 × 364 · 150 帧</small></a>
+<a href="zombie_gifs/20_Zombie_Yeti/retreat.gif" target="_blank" rel="noopener" data-terms="行进 转身逃跑 walk retreat" aria-label="打开 雪人僵尸 · 转身逃跑 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/20_Zombie_Yeti/retreat.gif" alt=""></span><span class="label">转身逃跑</span><small>328 × 364 · 75 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/20_Zombie_Yeti/eat.gif" target="_blank" rel="noopener" data-terms="啃食 啃食 eat eat" aria-label="打开 雪人僵尸 · 啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/20_Zombie_Yeti/eat.gif" alt=""></span><span class="label">啃食</span><small>308 × 360 · 35 帧</small></a></div></section></div></article>
+<article data-name="蹦极僵尸 bungee zombie 皮筋僵尸"><h2>蹦极僵尸</h2><p class="english" lang="en">Bungee Zombie</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/21_Bungee_Zombie/drop.gif" target="_blank" rel="noopener" data-terms="行进 沿绳下降 drop drop" aria-label="打开 蹦极僵尸 · 沿绳下降 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/21_Bungee_Zombie/drop.gif" alt=""></span><span class="label">沿绳下降</span><small>306 × 462 · 12 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><p class="note">游戏中无啃食动画。蹦极僵尸抓取植物。</p></div></section></div></article>
+<article data-name="扶梯僵尸 ladder zombie 梯子僵尸"><h2>扶梯僵尸</h2><p class="english" lang="en">Ladder Zombie</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/22_Ladder_Zombie/ladderwalk.gif" target="_blank" rel="noopener" data-terms="行进 持梯行进 ladderwalk ladderwalk" aria-label="打开 扶梯僵尸 · 持梯行进 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/22_Ladder_Zombie/ladderwalk.gif" alt=""></span><span class="label">持梯行进</span><small>266 × 326 · 43 帧</small></a>
+<a href="zombie_gifs/22_Ladder_Zombie/walk.gif" target="_blank" rel="noopener" data-terms="行进 放下梯子后步行 walk walk" aria-label="打开 扶梯僵尸 · 放下梯子后步行 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/22_Ladder_Zombie/walk.gif" alt=""></span><span class="label">放下梯子后步行</span><small>224 × 316 · 115 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/22_Ladder_Zombie/laddereat.gif" target="_blank" rel="noopener" data-terms="啃食 持梯啃食 laddereat laddereat" aria-label="打开 扶梯僵尸 · 持梯啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/22_Ladder_Zombie/laddereat.gif" alt=""></span><span class="label">持梯啃食</span><small>248 × 366 · 16 帧</small></a>
+<a href="zombie_gifs/22_Ladder_Zombie/eat.gif" target="_blank" rel="noopener" data-terms="啃食 放下梯子后啃食 eat eat" aria-label="打开 扶梯僵尸 · 放下梯子后啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/22_Ladder_Zombie/eat.gif" alt=""></span><span class="label">放下梯子后啃食</span><small>240 × 324 · 16 帧</small></a></div></section></div></article>
+<article data-name="投石车僵尸 catapult zombie 篮球车"><h2>投石车僵尸</h2><p class="english" lang="en">Catapult Zombie</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/23_Catapult_Zombie/walk.gif" target="_blank" rel="noopener" data-terms="行进 驾驶投石车 walk walk" aria-label="打开 投石车僵尸 · 驾驶投石车 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/23_Catapult_Zombie/walk.gif" alt=""></span><span class="label">驾驶投石车</span><small>386 × 334 · 110 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><p class="note">游戏中无啃食动画。投石车投掷篮球，也会碾压植物。</p></div></section></div></article>
+<article data-name="伽刚特尔 gargantuar 巨人僵尸 白眼巨人"><h2>伽刚特尔</h2><p class="english" lang="en">Gargantuar</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/24_Gargantuar/walk.gif" target="_blank" rel="noopener" data-terms="行进 步行 walk walk" aria-label="打开 伽刚特尔 · 步行 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/24_Gargantuar/walk.gif" alt=""></span><span class="label">步行</span><small>478 × 496 · 216 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><p class="note">游戏中无啃食动画。伽刚特尔用手持物砸击植物。</p></div></section></div></article>
+<article data-name="小鬼僵尸 imp "><h2>小鬼僵尸</h2><p class="english" lang="en">Imp</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/25_Imp/walk.gif" target="_blank" rel="noopener" data-terms="行进 步行 walk walk" aria-label="打开 小鬼僵尸 · 步行 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/25_Imp/walk.gif" alt=""></span><span class="label">步行</span><small>144 × 200 · 109 帧</small></a>
+<a href="zombie_gifs/25_Imp/run_izombie.gif" target="_blank" rel="noopener" data-terms="行进 我是僵尸 · 快跑 walk run_izombie" aria-label="打开 小鬼僵尸 · 我是僵尸 · 快跑 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/25_Imp/run_izombie.gif" alt=""></span><span class="label">我是僵尸 · 快跑</span><small>144 × 200 · 37 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/25_Imp/eat.gif" target="_blank" rel="noopener" data-terms="啃食 啃食 eat eat" aria-label="打开 小鬼僵尸 · 啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/25_Imp/eat.gif" alt=""></span><span class="label">啃食</span><small>156 × 194 · 33 帧</small></a></div></section></div></article>
+<article data-name="僵王博士 dr. zomboss 僵博 僵尸博士"><h2>僵王博士</h2><p class="english" lang="en">Dr. Zomboss</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/26_Dr_Zomboss/enter.gif" target="_blank" rel="noopener" data-terms="行进 机甲迈步入场 enter enter" aria-label="打开 僵王博士 · 机甲迈步入场 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/26_Dr_Zomboss/enter.gif" alt=""></span><span class="label">机甲迈步入场</span><small>682 × 745 · 82 帧</small></a>
+<a href="zombie_gifs/26_Dr_Zomboss/head_enter.gif" target="_blank" rel="noopener" data-terms="行进 机甲俯身 head_enter head_enter" aria-label="打开 僵王博士 · 机甲俯身 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/26_Dr_Zomboss/head_enter.gif" alt=""></span><span class="label">机甲俯身</span><small>856 × 949 · 116 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><p class="note">游戏中无啃食动画。僵王博士操纵机甲攻击。</p></div></section></div></article>
+<article data-name="豌豆僵尸 peashooter zombie 豌豆射手僵尸 zombotany"><h2>豌豆僵尸</h2><p class="english" lang="en">Peashooter Zombie</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/27_Peashooter_Zombie/walk2.gif" target="_blank" rel="noopener" data-terms="行进 步行 walk2 walk2" aria-label="打开 豌豆僵尸 · 步行 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/27_Peashooter_Zombie/walk2.gif" alt=""></span><span class="label">步行</span><small>212 × 252 · 87 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/27_Peashooter_Zombie/eat.gif" target="_blank" rel="noopener" data-terms="啃食 啃食 eat eat" aria-label="打开 豌豆僵尸 · 啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/27_Peashooter_Zombie/eat.gif" alt=""></span><span class="label">啃食</span><small>198 × 244 · 28 帧</small></a></div></section></div></article>
+<article data-name="坚果僵尸 wall-nut zombie "><h2>坚果僵尸</h2><p class="english" lang="en">Wall-nut Zombie</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/28_Wall-nut_Zombie/walk.gif" target="_blank" rel="noopener" data-terms="行进 步行 walk walk" aria-label="打开 坚果僵尸 · 步行 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/28_Wall-nut_Zombie/walk.gif" alt=""></span><span class="label">步行</span><small>234 × 278 · 87 帧</small></a>
+<a href="zombie_gifs/28_Wall-nut_Zombie/walk2.gif" target="_blank" rel="noopener" data-terms="行进 步行 · 另一种步态 walk2 walk2" aria-label="打开 坚果僵尸 · 步行 · 另一种步态 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/28_Wall-nut_Zombie/walk2.gif" alt=""></span><span class="label">步行 · 另一种步态</span><small>232 × 264 · 87 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/28_Wall-nut_Zombie/eat.gif" target="_blank" rel="noopener" data-terms="啃食 啃食 eat eat" aria-label="打开 坚果僵尸 · 啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/28_Wall-nut_Zombie/eat.gif" alt=""></span><span class="label">啃食</span><small>200 × 260 · 28 帧</small></a></div></section></div></article>
+<article data-name="火爆辣椒僵尸 jalapeno zombie "><h2>火爆辣椒僵尸</h2><p class="english" lang="en">Jalapeno Zombie</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/29_Jalapeno_Zombie/walk.gif" target="_blank" rel="noopener" data-terms="行进 步行 walk walk" aria-label="打开 火爆辣椒僵尸 · 步行 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/29_Jalapeno_Zombie/walk.gif" alt=""></span><span class="label">步行</span><small>222 × 278 · 87 帧</small></a>
+<a href="zombie_gifs/29_Jalapeno_Zombie/walk2.gif" target="_blank" rel="noopener" data-terms="行进 步行 · 另一种步态 walk2 walk2" aria-label="打开 火爆辣椒僵尸 · 步行 · 另一种步态 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/29_Jalapeno_Zombie/walk2.gif" alt=""></span><span class="label">步行 · 另一种步态</span><small>220 × 274 · 87 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/29_Jalapeno_Zombie/eat.gif" target="_blank" rel="noopener" data-terms="啃食 啃食 eat eat" aria-label="打开 火爆辣椒僵尸 · 啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/29_Jalapeno_Zombie/eat.gif" alt=""></span><span class="label">啃食</span><small>198 × 262 · 28 帧</small></a></div></section></div></article>
+<article data-name="机枪射手僵尸 gatling pea zombie "><h2>机枪射手僵尸</h2><p class="english" lang="en">Gatling Pea Zombie</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/30_Gatling_Pea_Zombie/walk.gif" target="_blank" rel="noopener" data-terms="行进 步行 walk walk" aria-label="打开 机枪射手僵尸 · 步行 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/30_Gatling_Pea_Zombie/walk.gif" alt=""></span><span class="label">步行</span><small>230 × 276 · 87 帧</small></a>
+<a href="zombie_gifs/30_Gatling_Pea_Zombie/walk2.gif" target="_blank" rel="noopener" data-terms="行进 步行 · 另一种步态 walk2 walk2" aria-label="打开 机枪射手僵尸 · 步行 · 另一种步态 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/30_Gatling_Pea_Zombie/walk2.gif" alt=""></span><span class="label">步行 · 另一种步态</span><small>228 × 280 · 87 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/30_Gatling_Pea_Zombie/eat.gif" target="_blank" rel="noopener" data-terms="啃食 啃食 eat eat" aria-label="打开 机枪射手僵尸 · 啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/30_Gatling_Pea_Zombie/eat.gif" alt=""></span><span class="label">啃食</span><small>208 × 274 · 28 帧</small></a></div></section></div></article>
+<article data-name="窝瓜僵尸 squash zombie "><h2>窝瓜僵尸</h2><p class="english" lang="en">Squash Zombie</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/31_Squash_Zombie/walk.gif" target="_blank" rel="noopener" data-terms="行进 步行 walk walk" aria-label="打开 窝瓜僵尸 · 步行 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/31_Squash_Zombie/walk.gif" alt=""></span><span class="label">步行</span><small>202 × 308 · 33 帧</small></a>
+<a href="zombie_gifs/31_Squash_Zombie/walk2.gif" target="_blank" rel="noopener" data-terms="行进 步行 · 另一种步态 walk2 walk2" aria-label="打开 窝瓜僵尸 · 步行 · 另一种步态 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/31_Squash_Zombie/walk2.gif" alt=""></span><span class="label">步行 · 另一种步态</span><small>206 × 304 · 33 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/31_Squash_Zombie/eat.gif" target="_blank" rel="noopener" data-terms="啃食 啃食 eat eat" aria-label="打开 窝瓜僵尸 · 啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/31_Squash_Zombie/eat.gif" alt=""></span><span class="label">啃食</span><small>198 × 296 · 28 帧</small></a></div></section></div></article>
+<article data-name="高坚果僵尸 tall-nut zombie "><h2>高坚果僵尸</h2><p class="english" lang="en">Tall-nut Zombie</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/32_Tall-nut_Zombie/walk.gif" target="_blank" rel="noopener" data-terms="行进 步行 walk walk" aria-label="打开 高坚果僵尸 · 步行 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/32_Tall-nut_Zombie/walk.gif" alt=""></span><span class="label">步行</span><small>270 × 352 · 87 帧</small></a>
+<a href="zombie_gifs/32_Tall-nut_Zombie/walk2.gif" target="_blank" rel="noopener" data-terms="行进 步行 · 另一种步态 walk2 walk2" aria-label="打开 高坚果僵尸 · 步行 · 另一种步态 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/32_Tall-nut_Zombie/walk2.gif" alt=""></span><span class="label">步行 · 另一种步态</span><small>276 × 334 · 87 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><a href="zombie_gifs/32_Tall-nut_Zombie/eat.gif" target="_blank" rel="noopener" data-terms="啃食 啃食 eat eat" aria-label="打开 高坚果僵尸 · 啃食 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/32_Tall-nut_Zombie/eat.gif" alt=""></span><span class="label">啃食</span><small>244 × 326 · 28 帧</small></a></div></section></div></article>
+<article data-name="红眼伽刚特尔 red-eye gargantuar 红眼巨人 giga gargantuar"><h2>红眼伽刚特尔</h2><p class="english" lang="en">Red-eye Gargantuar</p><div class="actions"><section data-kind="move"><h3>行进</h3><div class="clips"><a href="zombie_gifs/33_Red-eye_Gargantuar/walk.gif" target="_blank" rel="noopener" data-terms="行进 步行 walk walk" aria-label="打开 红眼伽刚特尔 · 步行 GIF"><span class="pic"><img loading="lazy" decoding="async" src="zombie_gifs/33_Red-eye_Gargantuar/walk.gif" alt=""></span><span class="label">步行</span><small>478 × 496 · 216 帧</small></a></div></section>
+<section data-kind="eat"><h3>啃食</h3><div class="clips"><p class="note">游戏中无啃食动画。红眼伽刚特尔用手持物砸击植物。</p></div></section></div></article>
+</main>
+<script>
+const query = document.querySelector('#query');
+const filters = [...document.querySelectorAll('[data-filter]')];
+const cards = [...document.querySelectorAll('article')];
+const count = document.querySelector('#count');
+const empty = document.querySelector('#empty');
+let filter = 'all';
+
+function update() {
+  const terms = query.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+  let zombieCount = 0;
+  let clipCount = 0;
+  for (const card of cards) {
+    let hasMatch = false;
+    const groups = [...card.querySelectorAll('[data-kind]')];
+    for (const group of groups) {
+      const clips = [...group.querySelectorAll('a')];
+      const selected = filter === 'all' || group.dataset.kind === filter;
+      let visible = 0;
+      for (const clip of clips) {
+        const match = selected && terms.every(term =>
+          (card.dataset.name + ' ' + clip.dataset.terms).includes(term)
+        );
+        clip.hidden = !match;
+        if (match) visible++;
+      }
+      clipCount += visible;
+      hasMatch ||= visible > 0;
+      group.hidden = !selected || (clips.length > 0 && visible === 0);
+    }
+    card.hidden = !hasMatch;
+    card.querySelector('.actions').classList.toggle('single', groups.filter(group => !group.hidden).length === 1);
+    if (hasMatch) zombieCount++;
+  }
+  count.textContent = '显示 ' + zombieCount + ' 种僵尸 · ' + clipCount + ' 个 GIF';
+  empty.hidden = zombieCount > 0;
+}
+
+for (const button of filters) {
+  button.addEventListener('click', () => {
+    filter = button.dataset.filter;
+    for (const option of filters) option.setAttribute('aria-pressed', String(option === button));
+    update();
+  });
+}
+query.addEventListener('input', update);
+update();
+</script>
+</body>
+</html>
